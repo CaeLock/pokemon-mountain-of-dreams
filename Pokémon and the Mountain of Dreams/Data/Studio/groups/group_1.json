@@ -5,7 +5,14 @@
   "systemTag": "Grass",
   "terrainTag": 0,
   "tool": null,
-  "customConditions": [],
+  "vsType": "simple",
+  "customConditions": [
+    {
+      "type": "mapId",
+      "relationWithPreviousCondition": "AND",
+      "value": 22
+    }
+  ],
   "encounters": [
     {
       "specie": "marill",
@@ -21,7 +28,7 @@
           "maximumLevel": 27
         }
       },
-      "randomEncounterChance": 1,
+      "randomEncounterChance": 50,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -260,6 +267,5 @@
       ]
     }
   ],
-  "stepsAverage": 0,
-  "vsType": "simple"
+  "stepsAverage": 0
 }

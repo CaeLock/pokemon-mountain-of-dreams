@@ -31,7 +31,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "shaymin",
       "babyForm": 0,
       "itemHeld": [
@@ -92,7 +92,7 @@
           "level": 37
         },
         {
-          "move": "natural_gift",
+          "move": "play_rough",
           "klass": "LevelLearnableMove",
           "level": 46
         },
@@ -102,7 +102,7 @@
           "level": 55
         },
         {
-          "move": "aromatherapy",
+          "move": "grassy_terrain",
           "klass": "LevelLearnableMove",
           "level": 64
         },
@@ -131,6 +131,14 @@
           "klass": "TechLearnableMove"
         },
         {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "hyper_beam",
           "klass": "TechLearnableMove"
         },
@@ -139,15 +147,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "psychic",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "double_team",
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
@@ -159,19 +163,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -179,23 +179,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "safeguard",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "synthesis",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
+          "move": "baton_pass",
           "klass": "TechLearnableMove"
         },
         {
@@ -211,28 +195,32 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "nature_power",
+          "move": "endeavor",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "endeavor",
-          "klass": "TutorLearnableMove"
+          "move": "air_cutter",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "covet",
-          "klass": "TutorLearnableMove"
+          "move": "bullet_seed",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "last_resort",
-          "klass": "TutorLearnableMove"
+          "move": "magical_leaf",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "worry_seed",
-          "klass": "TutorLearnableMove"
+          "move": "tailwind",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "seed_bomb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "air_slash",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "energy_ball",
@@ -240,7 +228,7 @@
         },
         {
           "move": "earth_power",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "giga_impact",
@@ -248,18 +236,30 @@
         },
         {
           "move": "zen_headbutt",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "leaf_storm",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "grass_knot",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "round",
+          "move": "petal_blizzard",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "disarming_voice",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "grassy_terrain",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "play_rough",
           "klass": "TechLearnableMove"
         },
         {
@@ -267,8 +267,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "laser_focus",
-          "klass": "TutorLearnableMove"
+          "move": "grassy_glide",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "trailblaze",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "flash",
@@ -276,7 +284,7 @@
         }
       ],
       "formTextId": {
-        "name": 610,
+        "name": 638,
         "description": 0
       }
     },
@@ -308,7 +316,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "shaymin",
       "babyForm": 1,
       "itemHeld": [
@@ -369,7 +377,7 @@
           "level": 37
         },
         {
-          "move": "natural_gift",
+          "move": "play_rough",
           "klass": "LevelLearnableMove",
           "level": 46
         },
@@ -408,6 +416,14 @@
           "klass": "TechLearnableMove"
         },
         {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "hyper_beam",
           "klass": "TechLearnableMove"
         },
@@ -416,15 +432,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "psychic",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "double_team",
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
@@ -436,19 +448,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -456,23 +464,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "safeguard",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "synthesis",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
+          "move": "baton_pass",
           "klass": "TechLearnableMove"
         },
         {
@@ -488,31 +480,39 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "nature_power",
+          "move": "endeavor",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "covet",
-          "klass": "TutorLearnableMove"
+          "move": "air_cutter",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bullet_seed",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "magical_leaf",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "tailwind",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "last_resort",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "worry_seed",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "seed_bomb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "air_slash",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "energy_ball",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "earth_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -521,18 +521,30 @@
         },
         {
           "move": "zen_headbutt",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "leaf_storm",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "grass_knot",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "round",
+          "move": "petal_blizzard",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "disarming_voice",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "grassy_terrain",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "play_rough",
           "klass": "TechLearnableMove"
         },
         {
@@ -540,8 +552,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "laser_focus",
-          "klass": "TutorLearnableMove"
+          "move": "grassy_glide",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "trailblaze",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "flash",
@@ -549,8 +569,8 @@
         }
       ],
       "formTextId": {
-        "name": 611,
-        "description": 120
+        "name": 639,
+        "description": 148
       }
     }
   ]

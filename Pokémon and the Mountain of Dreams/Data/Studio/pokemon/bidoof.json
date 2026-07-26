@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 50,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         2,
         5
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "bidoof",
       "babyForm": 0,
       "itemHeld": [
@@ -377,7 +377,7 @@
         }
       ],
       "formTextId": {
-        "name": 499,
+        "name": 525,
         "description": 0
       }
     }

@@ -2,7 +2,7 @@
   "id": 271,
   "dbSymbol": "power_herb",
   "icon": "271",
-  "price": 4000,
+  "price": 100,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

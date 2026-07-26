@@ -53,14 +53,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 56,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "wurmple",
       "babyForm": 0,
       "itemHeld": [
@@ -129,7 +129,7 @@
         }
       ],
       "formTextId": {
-        "name": 340,
+        "name": 366,
         "description": 0
       }
     }

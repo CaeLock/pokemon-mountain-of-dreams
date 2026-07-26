@@ -35,14 +35,14 @@
       ],
       "experienceType": 2,
       "baseExperience": 55,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 190,
       "femaleRate": 50,
       "breedGroups": [
         11,
         11
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "tynamo",
       "babyForm": 0,
       "itemHeld": [
@@ -102,16 +102,24 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
+          "move": "charge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "knock_off",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "charge_beam",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 747,
+        "name": 784,
         "description": 0
       }
     }

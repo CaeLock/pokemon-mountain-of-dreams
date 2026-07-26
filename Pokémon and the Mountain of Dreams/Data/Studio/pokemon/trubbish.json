@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 66,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 190,
       "femaleRate": 50,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "trubbish",
       "babyForm": 0,
       "itemHeld": [
@@ -93,19 +93,24 @@
           "level": 3
         },
         {
-          "move": "toxic_spikes",
+          "move": "acid_spray",
           "klass": "LevelLearnableMove",
-          "level": 7
+          "level": 6
         },
         {
-          "move": "acid_spray",
+          "move": "amnesia",
+          "klass": "LevelLearnableMove",
+          "level": 9
+        },
+        {
+          "move": "clear_smog",
           "klass": "LevelLearnableMove",
           "level": 12
         },
         {
-          "move": "double_slap",
+          "move": "toxic_spikes",
           "klass": "LevelLearnableMove",
-          "level": 14
+          "level": 15
         },
         {
           "move": "sludge",
@@ -115,64 +120,51 @@
         {
           "move": "stockpile",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 21
         },
         {
           "move": "swallow",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 21
         },
         {
           "move": "take_down",
           "klass": "LevelLearnableMove",
-          "level": 25
+          "level": 24
         },
         {
           "move": "sludge_bomb",
           "klass": "LevelLearnableMove",
-          "level": 29
-        },
-        {
-          "move": "clear_smog",
-          "klass": "LevelLearnableMove",
-          "level": 34
+          "level": 27
         },
         {
           "move": "toxic",
           "klass": "LevelLearnableMove",
-          "level": 36
-        },
-        {
-          "move": "amnesia",
-          "klass": "LevelLearnableMove",
-          "level": 40
+          "level": 30
         },
         {
           "move": "belch",
           "klass": "LevelLearnableMove",
-          "level": 42
+          "level": 33
+        },
+        {
+          "move": "pain_split",
+          "klass": "LevelLearnableMove",
+          "level": 37
         },
         {
           "move": "gunk_shot",
           "klass": "LevelLearnableMove",
-          "level": 45
+          "level": 39
         },
         {
           "move": "explosion",
           "klass": "LevelLearnableMove",
-          "level": 47
+          "level": 42
         },
         {
           "move": "sand_attack",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
         },
         {
           "move": "haze",
@@ -180,10 +172,10 @@
         },
         {
           "move": "self_destruct",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "explosion",
+          "move": "amnesia",
           "klass": "TechLearnableMove"
         },
         {
@@ -200,15 +192,11 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "curse",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "spite",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "protect",
@@ -220,19 +208,19 @@
         },
         {
           "move": "spikes",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "rollout",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "swagger",
-          "klass": "TechLearnableMove"
         },
         {
           "move": "attract",
@@ -240,22 +228,6 @@
         },
         {
           "move": "sleep_talk",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "pain_split",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -271,19 +243,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "recycle",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "mud_sport",
-          "klass": "BreedLearnableMove"
-        },
-        {
           "move": "rock_blast",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "payback",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "toxic_spikes",
           "klass": "TechLearnableMove"
         },
         {
@@ -292,15 +260,15 @@
         },
         {
           "move": "seed_bomb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "drain_punch",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gunk_shot",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "venoshock",
@@ -319,16 +287,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "venom_drench",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "infestation",
-          "klass": "TechLearnableMove"
+          "move": "corrosive_gas",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 707,
+        "name": 742,
         "description": 0
       }
     }

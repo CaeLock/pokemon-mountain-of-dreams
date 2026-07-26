@@ -5,7 +5,7 @@
   "price": 4000,
   "socket": 1,
   "position": 0,
-  "isBattleUsable": false,
+  "isBattleUsable": true,
   "isMapUsable": false,
   "isLimited": true,
   "isHoldable": true,

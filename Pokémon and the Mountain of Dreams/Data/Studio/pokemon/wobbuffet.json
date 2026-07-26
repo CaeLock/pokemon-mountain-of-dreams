@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 142,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         11,
         11
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "wobbuffet",
       "babyForm": 0,
       "itemHeld": [
@@ -80,12 +80,32 @@
           "level": 1
         },
         {
+          "move": "amnesia",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "splash",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "destiny_bond",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "charm",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "safeguard",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "encore",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -95,12 +115,40 @@
           "level": 1
         },
         {
+          "move": "counter",
+          "klass": "EvolutionLearnableMove"
+        },
+        {
+          "move": "amnesia",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "destiny_bond",
+          "klass": "EvolutionLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "safeguard",
+          "klass": "EvolutionLearnableMove"
+        },
+        {
           "move": "safeguard",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "encore",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "mirror_coat",
+          "klass": "EvolutionLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 269,
+        "name": 290,
         "description": 0
       }
     }

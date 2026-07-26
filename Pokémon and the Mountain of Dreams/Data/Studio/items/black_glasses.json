@@ -2,7 +2,7 @@
   "id": 240,
   "dbSymbol": "black_glasses",
   "icon": "240",
-  "price": 1000,
+  "price": 100,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

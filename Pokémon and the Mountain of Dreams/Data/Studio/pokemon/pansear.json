@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 63,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 190,
       "femaleRate": 12.5,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "pansear",
       "babyForm": 0,
       "itemHeld": [
@@ -411,7 +411,7 @@
         }
       ],
       "formTextId": {
-        "name": 649,
+        "name": 678,
         "description": 0
       }
     }

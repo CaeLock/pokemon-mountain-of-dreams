@@ -2,7 +2,7 @@
   "id": 495,
   "dbSymbol": "heavy_ball",
   "icon": "495",
-  "price": 0,
+  "price": 300,
   "socket": 2,
   "position": 0,
   "isBattleUsable": true,

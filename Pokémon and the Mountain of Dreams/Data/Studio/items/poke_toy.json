@@ -2,7 +2,7 @@
   "id": 577,
   "dbSymbol": "poke_toy",
   "icon": "577",
-  "price": 100,
+  "price": 1000,
   "socket": 1,
   "position": 0,
   "isBattleUsable": true,

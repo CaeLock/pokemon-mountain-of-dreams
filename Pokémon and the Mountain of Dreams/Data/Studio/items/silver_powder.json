@@ -2,7 +2,7 @@
   "id": 222,
   "dbSymbol": "silver_powder",
   "icon": "222",
-  "price": 1000,
+  "price": 100,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

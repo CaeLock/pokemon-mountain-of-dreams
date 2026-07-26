@@ -1,5 +1,4 @@
 {
-  "klass": "Item",
   "id": 638,
   "dbSymbol": "reveal_glass",
   "icon": "638",
@@ -11,6 +10,8 @@
   "isLimited": false,
   "isHoldable": false,
   "isAllowingMega": false,
-  "isBerry": false,
-  "flingPower": 0
+  "flingPower": 0,
+  "klass": "EventItem",
+  "eventId": 37,
+  "isBerry": false
 }

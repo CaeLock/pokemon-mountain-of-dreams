@@ -5,7 +5,7 @@
   "mapUse": 0,
   "battleEngineMethod": "s_rapid_spin",
   "type": "normal",
-  "power": 20,
+  "power": 50,
   "accuracy": 100,
   "pp": 40,
   "category": "physical",

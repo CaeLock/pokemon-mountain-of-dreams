@@ -35,14 +35,14 @@
       ],
       "experienceType": 0,
       "baseExperience": 62,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 190,
       "femaleRate": 75,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "glameow",
       "babyForm": 0,
       "itemHeld": [
@@ -361,7 +361,7 @@
         }
       ],
       "formTextId": {
-        "name": 539,
+        "name": 565,
         "description": 0
       }
     }

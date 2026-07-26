@@ -2,7 +2,7 @@
   "id": 75,
   "dbSymbol": "green_shard",
   "icon": "075",
-  "price": 1000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

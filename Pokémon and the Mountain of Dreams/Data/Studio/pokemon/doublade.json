@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 157,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 90,
       "femaleRate": 50,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "honedge",
       "babyForm": 0,
       "itemHeld": [
@@ -78,11 +78,6 @@
       },
       "moveSet": [
         {
-          "move": "swords_dance",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
           "move": "tackle",
           "klass": "LevelLearnableMove",
           "level": 1
@@ -93,44 +88,39 @@
           "level": 1
         },
         {
-          "move": "fury_cutter",
+          "move": "shadow_sneak",
           "klass": "LevelLearnableMove",
-          "level": 5
-        },
-        {
-          "move": "metal_sound",
-          "klass": "LevelLearnableMove",
-          "level": 8
-        },
-        {
-          "move": "pursuit",
-          "klass": "LevelLearnableMove",
-          "level": 13
+          "level": 1
         },
         {
           "move": "autotomize",
           "klass": "LevelLearnableMove",
-          "level": 18
-        },
-        {
-          "move": "shadow_sneak",
-          "klass": "LevelLearnableMove",
-          "level": 20
+          "level": 1
         },
         {
           "move": "aerial_ace",
           "klass": "LevelLearnableMove",
-          "level": 22
+          "level": 12
         },
         {
-          "move": "retaliate",
+          "move": "metal_sound",
           "klass": "LevelLearnableMove",
-          "level": 26
+          "level": 16
         },
         {
           "move": "slash",
           "klass": "LevelLearnableMove",
-          "level": 29
+          "level": 20
+        },
+        {
+          "move": "night_slash",
+          "klass": "LevelLearnableMove",
+          "level": 24
+        },
+        {
+          "move": "retaliate",
+          "klass": "LevelLearnableMove",
+          "level": 28
         },
         {
           "move": "iron_defense",
@@ -138,35 +128,31 @@
           "level": 32
         },
         {
-          "move": "night_slash",
+          "move": "iron_head",
           "klass": "LevelLearnableMove",
-          "level": 36
+          "level": 38
         },
         {
           "move": "power_trick",
           "klass": "LevelLearnableMove",
-          "level": 41
+          "level": 44
         },
         {
-          "move": "iron_head",
+          "move": "swords_dance",
           "klass": "LevelLearnableMove",
-          "level": 45
+          "level": 50
         },
         {
           "move": "sacred_sword",
           "klass": "LevelLearnableMove",
-          "level": 51
+          "level": 56
         },
         {
           "move": "swords_dance",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
+          "move": "screech",
           "klass": "TechLearnableMove"
         },
         {
@@ -187,22 +173,22 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "spite",
-          "klass": "TutorLearnableMove"
+          "move": "reversal",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "false_swipe",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "false_swipe",
           "klass": "TechLearnableMove"
         },
         {
@@ -211,18 +197,6 @@
         },
         {
           "move": "sleep_talk",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -238,27 +212,23 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "aerial_ace",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "shock_wave",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gyro_ball",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
+          "move": "close_combat",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "shadow_claw",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "psycho_cut",
           "klass": "TechLearnableMove"
         },
         {
@@ -267,23 +237,27 @@
         },
         {
           "move": "iron_head",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "after_you",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "confide",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "laser_focus",
-          "klass": "TutorLearnableMove"
+          "move": "round",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "retaliate",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "solar_blade",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "brutal_swing",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
         },
         {
           "move": "rock_smash",
@@ -295,7 +269,7 @@
         }
       ],
       "formTextId": {
-        "name": 879,
+        "name": 918,
         "description": 0
       }
     }

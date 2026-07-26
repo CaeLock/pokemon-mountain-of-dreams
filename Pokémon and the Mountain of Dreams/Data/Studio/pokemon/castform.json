@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 147,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         6,
         11
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "castform",
       "babyForm": 0,
       "itemHeld": [
@@ -333,7 +333,7 @@
         }
       ],
       "formTextId": {
-        "name": 435,
+        "name": 461,
         "description": 0
       }
     },
@@ -358,14 +358,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 147,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         6,
         11
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "castform",
       "babyForm": 1,
       "itemHeld": [
@@ -667,8 +667,8 @@
         }
       ],
       "formTextId": {
-        "name": 436,
-        "description": 86
+        "name": 462,
+        "description": 112
       }
     },
     {
@@ -692,14 +692,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 147,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         6,
         11
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "castform",
       "babyForm": 2,
       "itemHeld": [
@@ -1001,8 +1001,8 @@
         }
       ],
       "formTextId": {
-        "name": 437,
-        "description": 87
+        "name": 463,
+        "description": 113
       }
     },
     {
@@ -1026,14 +1026,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 147,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         6,
         11
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "castform",
       "babyForm": 3,
       "itemHeld": [
@@ -1335,8 +1335,8 @@
         }
       ],
       "formTextId": {
-        "name": 438,
-        "description": 88
+        "name": 464,
+        "description": 114
       }
     }
   ]

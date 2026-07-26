@@ -2,7 +2,7 @@
   "id": 242,
   "dbSymbol": "magnet",
   "icon": "242",
-  "price": 1000,
+  "price": 100,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

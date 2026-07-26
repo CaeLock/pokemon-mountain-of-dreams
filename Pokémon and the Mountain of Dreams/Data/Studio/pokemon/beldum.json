@@ -42,7 +42,7 @@
         10,
         10
       ],
-      "hatchSteps": 10240,
+      "hatchSteps": 5120,
       "babyDbSymbol": "beldum",
       "babyForm": 0,
       "itemHeld": [
@@ -78,25 +78,37 @@
       },
       "moveSet": [
         {
-          "move": "take_down",
+          "move": "tackle",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "zen_headbutt",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "iron_head",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "steel_beam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 465,
+        "name": 491,
         "description": 0
       }
     }

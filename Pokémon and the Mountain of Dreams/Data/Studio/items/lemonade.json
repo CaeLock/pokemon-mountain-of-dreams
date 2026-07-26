@@ -2,7 +2,7 @@
   "id": 32,
   "dbSymbol": "lemonade",
   "icon": "032",
-  "price": 400,
+  "price": 350,
   "socket": 6,
   "position": 0,
   "isBattleUsable": true,

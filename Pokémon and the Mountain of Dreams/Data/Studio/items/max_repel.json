@@ -2,7 +2,7 @@
   "id": 77,
   "dbSymbol": "max_repel",
   "icon": "077",
-  "price": 900,
+  "price": 700,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,
@@ -10,7 +10,7 @@
   "isLimited": true,
   "isHoldable": true,
   "isAllowingMega": false,
-  "flingPower": 30,
+  "flingPower": 0,
   "klass": "RepelItem",
   "repelCount": 250,
   "isBerry": false

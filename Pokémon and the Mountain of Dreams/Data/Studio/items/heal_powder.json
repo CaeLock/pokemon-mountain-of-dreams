@@ -2,7 +2,7 @@
   "id": 36,
   "dbSymbol": "heal_powder",
   "icon": "036",
-  "price": 300,
+  "price": 450,
   "socket": 6,
   "position": 200,
   "isBattleUsable": true,

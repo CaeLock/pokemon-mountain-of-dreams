@@ -42,7 +42,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "cosmog",
       "babyForm": 0,
       "itemHeld": [
@@ -78,18 +78,18 @@
       },
       "moveSet": [
         {
-          "move": "splash",
+          "move": "teleport",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "move": "teleport",
+          "move": "splash",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 1
         }
       ],
       "formTextId": {
-        "name": 1031,
+        "name": 1074,
         "description": 0
       }
     }

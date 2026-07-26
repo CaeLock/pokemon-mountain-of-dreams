@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 2,
       "baseExperience": 159,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 200,
       "femaleRate": 50,
       "breedGroups": [
         7,
         7
       ],
-      "hatchSteps": 6400,
+      "hatchSteps": 3200,
       "babyDbSymbol": "carnivine",
       "babyForm": 0,
       "itemHeld": [
@@ -346,7 +346,7 @@
         }
       ],
       "formTextId": {
-        "name": 565,
+        "name": 591,
         "description": 0
       }
     }

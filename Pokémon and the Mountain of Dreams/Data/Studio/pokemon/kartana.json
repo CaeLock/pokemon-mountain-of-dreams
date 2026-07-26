@@ -31,7 +31,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "kartana",
       "babyForm": 0,
       "itemHeld": [
@@ -67,17 +67,7 @@
       },
       "moveSet": [
         {
-          "move": "cut",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
           "move": "fury_cutter",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "air_cutter",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -87,90 +77,81 @@
           "level": 1
         },
         {
-          "move": "defog",
+          "move": "razor_leaf",
           "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "sacred_sword",
-          "klass": "LevelLearnableMove",
-          "level": 1
+          "level": 5
         },
         {
           "move": "false_swipe",
           "klass": "LevelLearnableMove",
-          "level": 7
+          "level": 10
         },
         {
-          "move": "razor_leaf",
+          "move": "cut",
           "klass": "LevelLearnableMove",
-          "level": 13
+          "level": 15
         },
         {
-          "move": "synthesis",
+          "move": "air_cutter",
           "klass": "LevelLearnableMove",
-          "level": 19
+          "level": 20
         },
         {
           "move": "aerial_ace",
           "klass": "LevelLearnableMove",
-          "level": 23
-        },
-        {
-          "move": "laser_focus",
-          "klass": "LevelLearnableMove",
-          "level": 29
-        },
-        {
-          "move": "night_slash",
-          "klass": "LevelLearnableMove",
-          "level": 31
-        },
-        {
-          "move": "swords_dance",
-          "klass": "LevelLearnableMove",
-          "level": 37
-        },
-        {
-          "move": "leaf_blade",
-          "klass": "LevelLearnableMove",
-          "level": 43
-        },
-        {
-          "move": "x_scissor",
-          "klass": "LevelLearnableMove",
-          "level": 47
+          "level": 25
         },
         {
           "move": "detect",
           "klass": "LevelLearnableMove",
-          "level": 53
+          "level": 30
         },
         {
-          "move": "air_slash",
+          "move": "night_slash",
           "klass": "LevelLearnableMove",
-          "level": 59
+          "level": 35
         },
         {
-          "move": "psycho_cut",
+          "move": "synthesis",
           "klass": "LevelLearnableMove",
-          "level": 67
+          "level": 40
+        },
+        {
+          "move": "laser_focus",
+          "klass": "LevelLearnableMove",
+          "level": 45
+        },
+        {
+          "move": "defog",
+          "klass": "LevelLearnableMove",
+          "level": 50
+        },
+        {
+          "move": "leaf_blade",
+          "klass": "LevelLearnableMove",
+          "level": 55
+        },
+        {
+          "move": "sacred_sword",
+          "klass": "LevelLearnableMove",
+          "level": 60
+        },
+        {
+          "move": "swords_dance",
+          "klass": "LevelLearnableMove",
+          "level": 65
         },
         {
           "move": "guillotine",
           "klass": "LevelLearnableMove",
-          "level": 73
+          "level": 70
         },
         {
           "move": "swords_dance",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
+          "move": "screech",
           "klass": "TechLearnableMove"
         },
         {
@@ -183,7 +164,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -191,14 +172,14 @@
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "false_swipe",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "false_swipe",
           "klass": "TechLearnableMove"
         },
         {
@@ -206,48 +187,24 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "synthesis",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "brick_break",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "knock_off",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "aerial_ace",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "calm_mind",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "tailwind",
-          "klass": "TutorLearnableMove"
+          "move": "leaf_blade",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "last_resort",
-          "klass": "TutorLearnableMove"
+          "move": "air_slash",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "x_scissor",
@@ -258,24 +215,24 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "defog",
-          "klass": "TutorLearnableMove"
+          "move": "psycho_cut",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "round",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "solar_blade",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "laser_focus",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "smart_strike",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
         },
         {
           "move": "cut",
@@ -283,7 +240,7 @@
         }
       ],
       "formTextId": {
-        "name": 1040,
+        "name": 1083,
         "description": 0
       }
     }

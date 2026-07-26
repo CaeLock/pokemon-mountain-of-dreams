@@ -2,7 +2,7 @@
   "id": 229,
   "dbSymbol": "everstone",
   "icon": "229",
-  "price": 3000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

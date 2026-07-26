@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 142,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 75,
       "femaleRate": 50,
       "breedGroups": [
         3,
         7
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "paras",
       "babyForm": 0,
       "itemHeld": [

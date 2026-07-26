@@ -39,14 +39,14 @@
       ],
       "experienceType": 4,
       "baseExperience": 40,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         2,
         14
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "feebas",
       "babyForm": 0,
       "itemHeld": [
@@ -94,7 +94,11 @@
         {
           "move": "flail",
           "klass": "LevelLearnableMove",
-          "level": 30
+          "level": 25
+        },
+        {
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "mist",
@@ -113,20 +117,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "hypnosis",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
+          "move": "confuse_ray",
+          "klass": "BreedLearnableMove"
         },
         {
           "move": "confuse_ray",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "light_screen",
@@ -137,7 +137,15 @@
           "klass": "BreedLearnableMove"
         },
         {
+          "move": "haze",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "waterfall",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
@@ -149,23 +157,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
           "move": "icy_wind",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "swagger",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "attract",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -173,28 +173,8 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "dragon_breath",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "iron_tail",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "iron_tail",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
         },
         {
           "move": "rain_dance",
@@ -205,7 +185,7 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "hail",
+          "move": "whirlpool",
           "klass": "TechLearnableMove"
         },
         {
@@ -213,43 +193,35 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "mud_sport",
-          "klass": "BreedLearnableMove"
-        },
-        {
           "move": "tickle",
           "klass": "BreedLearnableMove"
         },
         {
+          "move": "muddy_water",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "mud_shot",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "water_pulse",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "brine",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "dragon_pulse",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "dragon_pulse",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "captivate",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "round",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "scald",
+          "move": "dragon_pulse",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "scale_shot",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "chilling_water",
           "klass": "TechLearnableMove"
         },
         {
@@ -258,7 +230,7 @@
         }
       ],
       "formTextId": {
-        "name": 433,
+        "name": 459,
         "description": 0
       }
     }

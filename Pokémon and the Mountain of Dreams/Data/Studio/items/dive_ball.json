@@ -13,7 +13,7 @@
   "flingPower": 0,
   "klass": "BallItem",
   "spriteFilename": "ball_10",
-  "catchRate": 3.5,
+  "catchRate": 1,
   "color": {
     "red": 255,
     "green": 0,

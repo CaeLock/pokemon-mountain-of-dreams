@@ -2,7 +2,7 @@
   "id": 21,
   "dbSymbol": "awakening",
   "icon": "021",
-  "price": 100,
+  "price": 250,
   "socket": 6,
   "position": 103,
   "isBattleUsable": true,

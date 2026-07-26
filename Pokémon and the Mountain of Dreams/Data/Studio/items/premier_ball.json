@@ -2,7 +2,7 @@
   "id": 12,
   "dbSymbol": "premier_ball",
   "icon": "012",
-  "price": 20,
+  "price": 200,
   "socket": 2,
   "position": 0,
   "isBattleUsable": true,

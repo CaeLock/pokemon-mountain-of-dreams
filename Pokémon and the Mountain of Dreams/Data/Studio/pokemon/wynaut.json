@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 52,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 125,
       "femaleRate": 50,
       "breedGroups": [
         15,
         15
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "wynaut",
       "babyForm": 0,
       "itemHeld": [
@@ -78,7 +78,22 @@
       },
       "moveSet": [
         {
+          "move": "counter",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "amnesia",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "splash",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
+          "move": "destiny_bond",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -88,37 +103,39 @@
           "level": 1
         },
         {
+          "move": "safeguard",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "encore",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "move": "counter",
-          "klass": "LevelLearnableMove",
-          "level": 15
-        },
-        {
-          "move": "destiny_bond",
-          "klass": "LevelLearnableMove",
-          "level": 15
-        },
-        {
-          "move": "safeguard",
-          "klass": "LevelLearnableMove",
-          "level": 15
-        },
-        {
           "move": "mirror_coat",
           "klass": "LevelLearnableMove",
-          "level": 15
+          "level": 1
+        },
+        {
+          "move": "amnesia",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "safeguard",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "encore",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 449,
+        "name": 475,
         "description": 0
       }
     }

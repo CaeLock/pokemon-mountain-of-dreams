@@ -53,14 +53,14 @@
       ],
       "experienceType": 4,
       "baseExperience": 69,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         2,
         2
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "clamperl",
       "babyForm": 0,
       "itemHeld": [
@@ -270,7 +270,7 @@
         }
       ],
       "formTextId": {
-        "name": 456,
+        "name": 482,
         "description": 0
       }
     }

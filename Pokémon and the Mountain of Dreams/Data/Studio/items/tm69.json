@@ -7,12 +7,12 @@
   "position": 0,
   "isBattleUsable": false,
   "isMapUsable": true,
-  "isLimited": false,
+  "isLimited": true,
   "isHoldable": false,
   "isAllowingMega": false,
   "flingPower": 0,
   "klass": "TechItem",
   "isHm": false,
-  "move": "rock_polish",
+  "move": "ice_punch",
   "isBerry": false
 }

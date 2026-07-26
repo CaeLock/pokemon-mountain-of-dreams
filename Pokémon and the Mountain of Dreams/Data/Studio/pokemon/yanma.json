@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 78,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 75,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "yanma",
       "babyForm": 0,
       "itemHeld": [
@@ -83,11 +83,6 @@
           "level": 1
         },
         {
-          "move": "foresight",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
           "move": "quick_attack",
           "klass": "LevelLearnableMove",
           "level": 6
@@ -98,7 +93,7 @@
           "level": 11
         },
         {
-          "move": "sonic_boom",
+          "move": "air_cutter",
           "klass": "LevelLearnableMove",
           "level": 14
         },
@@ -118,7 +113,7 @@
           "level": 27
         },
         {
-          "move": "pursuit",
+          "move": "bug_bite",
           "klass": "LevelLearnableMove",
           "level": 30
         },
@@ -158,19 +153,27 @@
           "level": 57
         },
         {
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "whirlwind",
           "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "double_edge",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "solar_beam",
+          "move": "double_edge",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
+          "move": "solar_beam",
           "klass": "TechLearnableMove"
         },
         {
@@ -178,16 +181,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "dream_eater",
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
           "move": "leech_life",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "rest",
@@ -202,35 +201,19 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "reversal",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "feint_attack",
-          "klass": "BreedLearnableMove"
-        },
-        {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "swagger",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "steel_wing",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "attract",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -238,23 +221,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "pursuit",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "sunny_day",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "psych_up",
           "klass": "TechLearnableMove"
         },
         {
@@ -263,34 +234,18 @@
         },
         {
           "move": "uproar",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "facade",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "secret_power",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "silver_wind",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "signal_beam",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "aerial_ace",
+          "move": "air_cutter",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "roost",
+          "move": "aerial_ace",
           "klass": "TechLearnableMove"
         },
         {
@@ -299,26 +254,46 @@
         },
         {
           "move": "tailwind",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "u_turn",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "defog",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "bug_bite",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "round",
+          "move": "air_slash",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "bug_buzz",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bug_bite",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "struggle_bug",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "lunge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "pounce",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "psychic_noise",
           "klass": "TechLearnableMove"
         },
         {
@@ -327,7 +302,7 @@
         }
       ],
       "formTextId": {
-        "name": 233,
+        "name": 252,
         "description": 0
       }
     }

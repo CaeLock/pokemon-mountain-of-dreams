@@ -8,7 +8,7 @@
   "isBattleUsable": true,
   "isMapUsable": false,
   "isLimited": true,
-  "isHoldable": true,
+  "isHoldable": false,
   "isAllowingMega": false,
   "flingPower": 0,
   "klass": "BallItem",

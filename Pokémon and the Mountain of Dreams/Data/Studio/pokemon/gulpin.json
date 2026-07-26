@@ -35,14 +35,14 @@
       ],
       "experienceType": 5,
       "baseExperience": 60,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 225,
       "femaleRate": 50,
       "breedGroups": [
         11,
         11
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "gulpin",
       "babyForm": 0,
       "itemHeld": [
@@ -156,7 +156,7 @@
           "level": 41
         },
         {
-          "move": "wring_out",
+          "move": "pain_split",
           "klass": "LevelLearnableMove",
           "level": 44
         },
@@ -167,15 +167,27 @@
         },
         {
           "move": "fire_punch",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "ice_punch",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "thunder_punch",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "ice_beam",
@@ -186,11 +198,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
+          "move": "thunder_wave",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "double_team",
+          "move": "toxic",
           "klass": "TechLearnableMove"
         },
         {
@@ -198,16 +210,12 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "dream_eater",
+          "move": "amnesia",
           "klass": "TechLearnableMove"
         },
         {
           "move": "acid_armor",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "explosion",
-          "klass": "TechLearnableMove"
         },
         {
           "move": "rest",
@@ -218,12 +226,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "curse",
           "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "curse",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -238,19 +250,19 @@
           "klass": "BreedLearnableMove"
         },
         {
+          "move": "mud_slap",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "destiny_bond",
           "klass": "BreedLearnableMove"
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "swagger",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "attract",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -258,23 +270,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
+          "move": "pain_split",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "pain_split",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "pain_split",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
+          "move": "encore",
           "klass": "TechLearnableMove"
         },
         {
@@ -294,32 +294,40 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snatch",
-          "klass": "TutorLearnableMove"
+          "move": "helping_hand",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "shock_wave",
-          "klass": "TutorLearnableMove"
+          "move": "bullet_seed",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "mud_shot",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "water_pulse",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "gastro_acid",
-          "klass": "TutorLearnableMove"
+          "move": "fling",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "toxic_spikes",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "poison_jab",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "seed_bomb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gunk_shot",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "gunk_shot",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "venoshock",
@@ -330,19 +338,19 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "round",
+          "move": "acid_spray",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "venom_drench",
+          "move": "clear_smog",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "infestation",
+          "move": "stuff_cheeks",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "tera_blast",
           "klass": "TechLearnableMove"
         },
         {
@@ -355,7 +363,7 @@
         }
       ],
       "formTextId": {
-        "name": 397,
+        "name": 423,
         "description": 0
       }
     }

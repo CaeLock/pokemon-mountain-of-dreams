@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 64,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 12.5,
       "breedGroups": [
         1,
         7
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "bulbasaur",
       "babyForm": 0,
       "itemHeld": [
@@ -85,75 +85,88 @@
         {
           "move": "growl",
           "klass": "LevelLearnableMove",
-          "level": 3
-        },
-        {
-          "move": "leech_seed",
-          "klass": "LevelLearnableMove",
-          "level": 7
+          "level": 1
         },
         {
           "move": "vine_whip",
           "klass": "LevelLearnableMove",
-          "level": 9
-        },
-        {
-          "move": "poison_powder",
-          "klass": "LevelLearnableMove",
-          "level": 13
-        },
-        {
-          "move": "sleep_powder",
-          "klass": "LevelLearnableMove",
-          "level": 13
-        },
-        {
-          "move": "take_down",
-          "klass": "LevelLearnableMove",
-          "level": 15
-        },
-        {
-          "move": "razor_leaf",
-          "klass": "LevelLearnableMove",
-          "level": 19
-        },
-        {
-          "move": "sweet_scent",
-          "klass": "LevelLearnableMove",
-          "level": 21
+          "level": 3
         },
         {
           "move": "growth",
           "klass": "LevelLearnableMove",
-          "level": 25
+          "level": 6
         },
         {
-          "move": "double_edge",
+          "move": "leech_seed",
+          "klass": "LevelLearnableMove",
+          "level": 9
+        },
+        {
+          "move": "razor_leaf",
+          "klass": "LevelLearnableMove",
+          "level": 12
+        },
+        {
+          "move": "poison_powder",
+          "klass": "LevelLearnableMove",
+          "level": 15
+        },
+        {
+          "move": "sleep_powder",
+          "klass": "LevelLearnableMove",
+          "level": 15
+        },
+        {
+          "move": "seed_bomb",
+          "klass": "LevelLearnableMove",
+          "level": 18
+        },
+        {
+          "move": "take_down",
+          "klass": "LevelLearnableMove",
+          "level": 21
+        },
+        {
+          "move": "sweet_scent",
+          "klass": "LevelLearnableMove",
+          "level": 24
+        },
+        {
+          "move": "synthesis",
           "klass": "LevelLearnableMove",
           "level": 27
         },
         {
           "move": "worry_seed",
           "klass": "LevelLearnableMove",
-          "level": 31
+          "level": 30
         },
         {
-          "move": "synthesis",
+          "move": "power_whip",
           "klass": "LevelLearnableMove",
           "level": 33
         },
         {
-          "move": "seed_bomb",
+          "move": "solar_beam",
           "klass": "LevelLearnableMove",
-          "level": 37
+          "level": 36
         },
         {
           "move": "swords_dance",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "bind",
-          "klass": "TutorLearnableMove"
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "double_edge",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "solar_beam",
@@ -165,27 +178,11 @@
         },
         {
           "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "light_screen",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "sludge",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "skull_bash",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "amnesia",
-          "klass": "BreedLearnableMove"
+          "move": "toxic",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "rest",
@@ -196,12 +193,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "move": "curse",
+          "klass": "BreedLearnableMove"
         },
         {
           "move": "curse",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -213,50 +210,22 @@
         },
         {
           "move": "giga_drain",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "giga_drain",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "endure",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "charm",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "swagger",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "attract",
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "false_swipe",
           "klass": "TechLearnableMove"
         },
         {
           "move": "sleep_talk",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "safeguard",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "synthesis",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -268,11 +237,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "nature_power",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "nature_power",
+          "move": "helping_hand",
           "klass": "TechLearnableMove"
         },
         {
@@ -281,23 +246,23 @@
         },
         {
           "move": "knock_off",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "grass_whistle",
-          "klass": "BreedLearnableMove"
+          "move": "weather_ball",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bullet_seed",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "magical_leaf",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "worry_seed",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "seed_bomb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "energy_ball",
@@ -305,11 +270,7 @@
         },
         {
           "move": "leaf_storm",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "power_whip",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "grass_knot",
@@ -320,27 +281,27 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "round",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "echoed_voice",
+          "move": "acid_spray",
           "klass": "TechLearnableMove"
         },
         {
           "move": "grass_pledge",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "work_up",
           "klass": "TechLearnableMove"
         },
         {
           "move": "grassy_terrain",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "grassy_glide",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "trailblaze",
           "klass": "TechLearnableMove"
         },
         {

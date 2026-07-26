@@ -2,7 +2,7 @@
   "id": 284,
   "dbSymbol": "heat_rock",
   "icon": "284",
-  "price": 4000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

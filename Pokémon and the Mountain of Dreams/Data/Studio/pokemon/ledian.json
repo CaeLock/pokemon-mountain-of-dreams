@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 0,
       "baseExperience": 137,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 90,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "ledyba",
       "babyForm": 0,
       "itemHeld": [
@@ -336,7 +336,7 @@
         }
       ],
       "formTextId": {
-        "name": 205,
+        "name": 224,
         "description": 0
       }
     }

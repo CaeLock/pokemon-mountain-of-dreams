@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 52,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         4,
         4
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "spearow",
       "babyForm": 0,
       "itemHeld": [

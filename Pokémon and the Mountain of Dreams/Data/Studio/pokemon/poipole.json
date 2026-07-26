@@ -42,7 +42,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "poipole",
       "babyForm": 0,
       "itemHeld": [
@@ -108,42 +108,47 @@
           "level": 7
         },
         {
-          "move": "venoshock",
+          "move": "fell_stinger",
           "klass": "LevelLearnableMove",
-          "level": 13
+          "level": 14
         },
         {
           "move": "charm",
           "klass": "LevelLearnableMove",
-          "level": 19
+          "level": 21
+        },
+        {
+          "move": "venoshock",
+          "klass": "LevelLearnableMove",
+          "level": 28
         },
         {
           "move": "venom_drench",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 35
         },
         {
           "move": "nasty_plot",
           "klass": "LevelLearnableMove",
-          "level": 31
+          "level": 42
         },
         {
           "move": "poison_jab",
           "klass": "LevelLearnableMove",
-          "level": 37
+          "level": 49
+        },
+        {
+          "move": "gastro_acid",
+          "klass": "LevelLearnableMove",
+          "level": 56
         },
         {
           "move": "toxic",
           "klass": "LevelLearnableMove",
-          "level": 41
+          "level": 63
         },
         {
-          "move": "fell_stinger",
-          "klass": "LevelLearnableMove",
-          "level": 47
-        },
-        {
-          "move": "toxic",
+          "move": "pin_missile",
           "klass": "TechLearnableMove"
         },
         {
@@ -156,7 +161,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -167,28 +172,24 @@
           "klass": "TechLearnableMove"
         },
         {
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "charm",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "sleep_talk",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "iron_tail",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
           "move": "uproar",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "facade",
@@ -196,23 +197,11 @@
         },
         {
           "move": "helping_hand",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "snatch",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "covet",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "gastro_acid",
-          "klass": "TutorLearnableMove"
+          "move": "toxic_spikes",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "poison_jab",
@@ -220,11 +209,15 @@
         },
         {
           "move": "dragon_pulse",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "nasty_plot",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gunk_shot",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "venoshock",
@@ -239,16 +232,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "echoed_voice",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "confide",
+          "move": "venom_drench",
           "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 1048,
+        "name": 1091,
         "description": 0
       }
     }

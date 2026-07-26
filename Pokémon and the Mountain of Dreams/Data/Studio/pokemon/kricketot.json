@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 39,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "kricketot",
       "babyForm": 0,
       "itemHeld": [
@@ -86,12 +86,12 @@
       },
       "moveSet": [
         {
-          "move": "growl",
+          "move": "tackle",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "move": "bide",
+          "move": "growl",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -106,24 +106,32 @@
           "level": 16
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "uproar",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "endeavor",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "bug_bite",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "struggle_bug",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "lunge",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 501,
+        "name": 527,
         "description": 0
       }
     }

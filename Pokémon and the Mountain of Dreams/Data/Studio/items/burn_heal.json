@@ -2,7 +2,7 @@
   "id": 19,
   "dbSymbol": "burn_heal",
   "icon": "019",
-  "price": 300,
+  "price": 250,
   "socket": 6,
   "position": 101,
   "isBattleUsable": true,

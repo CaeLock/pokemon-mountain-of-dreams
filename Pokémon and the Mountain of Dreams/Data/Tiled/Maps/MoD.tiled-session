@@ -1,8 +1,8 @@
 {
     "activeFile": "route_test.tmx",
     "expandedProjectPaths": [
-        "maps",
-        "."
+        ".",
+        "maps"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -15,11 +15,11 @@
             }
         },
         "006 Beach.tmx": {
-            "scale": 0.5,
+            "scale": 3,
             "selectedLayer": 8,
             "viewCenter": {
-                "x": 2397,
-                "y": 869
+                "x": 1024,
+                "y": 1024
             }
         },
         "010 CyclingRoad.tmx": {
@@ -69,7 +69,7 @@
             "scaleInDock": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 0.75,
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
@@ -77,7 +77,7 @@
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx": {
@@ -117,11 +117,11 @@
             "scaleInEditor": 1
         },
         "route_test.tmx": {
-            "scale": 1.5,
+            "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 298.33333333333326,
-                "y": 410.3333333333333
+                "x": 494.25,
+                "y": 410.75
             }
         },
         "rules_TECH_assets.tmx": {
@@ -162,15 +162,14 @@
     "map.lastUsedFormat": "tmx",
     "map.renderOrder": "3",
     "openFiles": [
-        "012 Elevator 2.tmx",
         "route_test.tmx",
         "006 Beach.tmx"
     ],
     "project": "MoD.tiled-project",
     "recentFiles": [
-        "012 Elevator 2.tmx",
         "006 Beach.tmx",
         "route_test.tmx",
+        "012 Elevator 2.tmx",
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx",
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx",
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx",

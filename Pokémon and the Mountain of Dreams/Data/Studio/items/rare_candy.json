@@ -2,7 +2,7 @@
   "id": 50,
   "dbSymbol": "rare_candy",
   "icon": "050",
-  "price": 10000,
+  "price": 4800,
   "socket": 6,
   "position": 0,
   "isBattleUsable": false,
@@ -10,9 +10,9 @@
   "isLimited": true,
   "isHoldable": true,
   "isAllowingMega": false,
-  "flingPower": 30,
+  "flingPower": 0,
   "klass": "LevelIncreaseItem",
-  "loyaltyMalus": -5,
+  "loyaltyMalus": 0,
   "levelCount": 1,
   "isBerry": false
 }

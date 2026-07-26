@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 148,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 100,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "burmy",
       "babyForm": 0,
       "itemHeld": [
@@ -342,7 +342,7 @@
         }
       ],
       "formTextId": {
-        "name": 515,
+        "name": 541,
         "description": 0
       }
     },
@@ -367,14 +367,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 148,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 100,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "burmy",
       "babyForm": 1,
       "itemHeld": [
@@ -681,8 +681,8 @@
         }
       ],
       "formTextId": {
-        "name": 516,
-        "description": 104
+        "name": 542,
+        "description": 130
       }
     },
     {
@@ -706,14 +706,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 148,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 100,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "burmy",
       "babyForm": 2,
       "itemHeld": [
@@ -1029,8 +1029,8 @@
         }
       ],
       "formTextId": {
-        "name": 517,
-        "description": 105
+        "name": 543,
+        "description": 131
       }
     }
   ]

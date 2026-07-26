@@ -2,7 +2,7 @@
   "id": 28,
   "dbSymbol": "revive",
   "icon": "028",
-  "price": 2000,
+  "price": 1500,
   "socket": 6,
   "position": 201,
   "isBattleUsable": true,

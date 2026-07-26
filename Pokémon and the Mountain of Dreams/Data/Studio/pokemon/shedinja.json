@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 4,
       "baseExperience": 83,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": -1,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "nincada",
       "babyForm": 0,
       "itemHeld": [
@@ -77,7 +77,7 @@
           "level": 1
         },
         {
-          "move": "absorb",
+          "move": "dig",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -87,59 +87,69 @@
           "level": 1
         },
         {
-          "move": "absorb",
+          "move": "mud_slap",
           "klass": "LevelLearnableMove",
-          "level": 5
+          "level": 1
         },
         {
-          "move": "sand_attack",
+          "move": "false_swipe",
           "klass": "LevelLearnableMove",
-          "level": 9
+          "level": 1
         },
         {
-          "move": "fury_swipes",
+          "move": "metal_claw",
           "klass": "LevelLearnableMove",
-          "level": 13
-        },
-        {
-          "move": "spite",
-          "klass": "LevelLearnableMove",
-          "level": 17
-        },
-        {
-          "move": "shadow_sneak",
-          "klass": "LevelLearnableMove",
-          "level": 21
-        },
-        {
-          "move": "mind_reader",
-          "klass": "LevelLearnableMove",
-          "level": 25
-        },
-        {
-          "move": "confuse_ray",
-          "klass": "LevelLearnableMove",
-          "level": 29
-        },
-        {
-          "move": "shadow_ball",
-          "klass": "LevelLearnableMove",
-          "level": 33
+          "level": 1
         },
         {
           "move": "grudge",
           "klass": "LevelLearnableMove",
-          "level": 37
+          "level": 1
         },
         {
-          "move": "heal_block",
+          "move": "shadow_claw",
           "klass": "LevelLearnableMove",
-          "level": 41
+          "level": 1
+        },
+        {
+          "move": "confuse_ray",
+          "klass": "LevelLearnableMove",
+          "level": 15
+        },
+        {
+          "move": "absorb",
+          "klass": "LevelLearnableMove",
+          "level": 23
+        },
+        {
+          "move": "shadow_sneak",
+          "klass": "LevelLearnableMove",
+          "level": 29
+        },
+        {
+          "move": "fury_swipes",
+          "klass": "LevelLearnableMove",
+          "level": 36
+        },
+        {
+          "move": "mind_reader",
+          "klass": "LevelLearnableMove",
+          "level": 43
+        },
+        {
+          "move": "shadow_ball",
+          "klass": "LevelLearnableMove",
+          "level": 50
+        },
+        {
+          "move": "spite",
+          "klass": "LevelLearnableMove",
+          "level": 57
         },
         {
           "move": "phantom_force",
           "klass": "LevelLearnableMove",
-          "level": 45
+          "level": 64
         },
         {
           "move": "hyper_beam",
@@ -150,15 +160,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
+          "move": "dig",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "dream_eater",
+          "move": "agility",
           "klass": "TechLearnableMove"
         },
         {
@@ -179,11 +185,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "spite",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -195,30 +197,18 @@
         },
         {
           "move": "giga_drain",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "endure",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "false_swipe",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "sleep_talk",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -239,14 +229,14 @@
         },
         {
           "move": "trick",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "aerial_ace",
           "klass": "TechLearnableMove"
         },
         {
           "move": "x_scissor",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "bug_buzz",
           "klass": "TechLearnableMove"
         },
         {
@@ -258,24 +248,28 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "bug_bite",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "telekinesis",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "round",
           "klass": "TechLearnableMove"
         },
         {
           "move": "ally_switch",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "hex",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "phantom_force",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "skitter_smack",
           "klass": "TutorLearnableMove"
         },
         {
-          "move": "confide",
-          "klass": "TechLearnableMove"
+          "move": "poltergeist",
+          "klass": "TutorLearnableMove"
         },
         {
           "move": "cut",
@@ -287,7 +281,7 @@
         }
       ],
       "formTextId": {
-        "name": 368,
+        "name": 394,
         "description": 0
       }
     }

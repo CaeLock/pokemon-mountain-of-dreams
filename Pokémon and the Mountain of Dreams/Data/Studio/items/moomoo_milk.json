@@ -2,7 +2,7 @@
   "id": 33,
   "dbSymbol": "moomoo_milk",
   "icon": "033",
-  "price": 600,
+  "price": 500,
   "socket": 6,
   "position": 20,
   "isBattleUsable": true,
@@ -12,7 +12,7 @@
   "isAllowingMega": false,
   "flingPower": 30,
   "klass": "ConstantHealItem",
-  "loyaltyMalus": 0,
+  "loyaltyMalus": -1,
   "hpCount": 100,
   "isBerry": false
 }

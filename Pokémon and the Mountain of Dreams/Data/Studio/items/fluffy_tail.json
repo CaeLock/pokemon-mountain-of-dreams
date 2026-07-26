@@ -2,7 +2,7 @@
   "id": 64,
   "dbSymbol": "fluffy_tail",
   "icon": "064",
-  "price": 100,
+  "price": 1000,
   "socket": 1,
   "position": 0,
   "isBattleUsable": true,

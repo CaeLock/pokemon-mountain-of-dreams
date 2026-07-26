@@ -2,7 +2,7 @@
   "id": 18,
   "dbSymbol": "antidote",
   "icon": "018",
-  "price": 200,
+  "price": 100,
   "socket": 6,
   "position": 100,
   "isBattleUsable": true,

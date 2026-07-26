@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 56,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "roggenrola",
       "babyForm": 0,
       "itemHeld": [
@@ -78,6 +78,11 @@
       },
       "moveSet": [
         {
+          "move": "sand_attack",
+          "klass": "LevelLearnableMove",
+          "level": 1
+        },
+        {
           "move": "tackle",
           "klass": "LevelLearnableMove",
           "level": 1
@@ -88,24 +93,19 @@
           "level": 4
         },
         {
-          "move": "sand_attack",
+          "move": "stealth_rock",
           "klass": "LevelLearnableMove",
-          "level": 7
-        },
-        {
-          "move": "headbutt",
-          "klass": "LevelLearnableMove",
-          "level": 10
-        },
-        {
-          "move": "rock_blast",
-          "klass": "LevelLearnableMove",
-          "level": 14
+          "level": 8
         },
         {
           "move": "mud_slap",
           "klass": "LevelLearnableMove",
-          "level": 17
+          "level": 12
+        },
+        {
+          "move": "smack_down",
+          "klass": "LevelLearnableMove",
+          "level": 16
         },
         {
           "move": "iron_defense",
@@ -113,34 +113,34 @@
           "level": 20
         },
         {
-          "move": "smack_down",
+          "move": "headbutt",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 24
         },
         {
           "move": "rock_slide",
           "klass": "LevelLearnableMove",
-          "level": 27
+          "level": 28
         },
         {
-          "move": "stealth_rock",
+          "move": "rock_blast",
           "klass": "LevelLearnableMove",
-          "level": 30
+          "level": 32
         },
         {
           "move": "sandstorm",
           "klass": "LevelLearnableMove",
-          "level": 33
+          "level": 36
         },
         {
           "move": "stone_edge",
           "klass": "LevelLearnableMove",
-          "level": 36
+          "level": 40
         },
         {
           "move": "explosion",
           "klass": "LevelLearnableMove",
-          "level": 40
+          "level": 44
         },
         {
           "move": "take_down",
@@ -148,18 +148,6 @@
         },
         {
           "move": "earthquake",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "explosion",
           "klass": "TechLearnableMove"
         },
         {
@@ -176,7 +164,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "curse",
@@ -187,15 +175,11 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "lock_on",
-          "klass": "BreedLearnableMove"
-        },
-        {
           "move": "sandstorm",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -207,60 +191,32 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "magnitude",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "facade",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "nature_power",
+          "move": "rock_tomb",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "rock_tomb",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "rock_tomb",
+          "move": "sand_tomb",
           "klass": "TechLearnableMove"
         },
         {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "block",
-          "klass": "TutorLearnableMove"
+          "move": "rock_blast",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gravity",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "gravity",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "rock_polish",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "earth_power",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "flash_cannon",
@@ -272,7 +228,7 @@
         },
         {
           "move": "stealth_rock",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "wide_guard",
@@ -283,12 +239,8 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "smack_down",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "heavy_slam",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "round",
@@ -299,8 +251,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "body_press",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "meteor_beam",
+          "klass": "TutorLearnableMove"
         },
         {
           "move": "rock_smash",
@@ -312,7 +268,7 @@
         }
       ],
       "formTextId": {
-        "name": 660,
+        "name": 689,
         "description": 0
       }
     }

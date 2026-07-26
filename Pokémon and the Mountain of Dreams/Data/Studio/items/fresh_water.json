@@ -12,7 +12,7 @@
   "isAllowingMega": false,
   "flingPower": 30,
   "klass": "ConstantHealItem",
-  "loyaltyMalus": 0,
+  "loyaltyMalus": -1,
   "hpCount": 30,
   "isBerry": false
 }

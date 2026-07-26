@@ -13,6 +13,6 @@
   "flingPower": 30,
   "klass": "ConstantHealItem",
   "loyaltyMalus": 0,
-  "hpCount": 120,
+  "hpCount": 200,
   "isBerry": false
 }

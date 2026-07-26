@@ -2,7 +2,7 @@
   "id": 35,
   "dbSymbol": "energy_root",
   "icon": "035",
-  "price": 1200,
+  "price": 800,
   "socket": 6,
   "position": 22,
   "isBattleUsable": true,
@@ -13,6 +13,6 @@
   "flingPower": 30,
   "klass": "ConstantHealItem",
   "loyaltyMalus": 10,
-  "hpCount": 120,
+  "hpCount": 200,
   "isBerry": false
 }

@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 62,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 12.5,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "oshawott",
       "babyForm": 0,
       "itemHeld": [
@@ -93,7 +93,7 @@
           "level": 7
         },
         {
-          "move": "water_sport",
+          "move": "soak",
           "klass": "LevelLearnableMove",
           "level": 11
         },
@@ -118,7 +118,7 @@
           "level": 23
         },
         {
-          "move": "revenge",
+          "move": "aerial_ace",
           "klass": "LevelLearnableMove",
           "level": 25
         },
@@ -157,6 +157,14 @@
           "klass": "TechLearnableMove"
         },
         {
+          "move": "take_down",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "hydro_pump",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "surf",
           "klass": "TechLearnableMove"
         },
@@ -169,7 +177,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
+          "move": "dig",
           "klass": "TechLearnableMove"
         },
         {
@@ -177,11 +185,11 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "double_team",
+          "move": "waterfall",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "waterfall",
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
@@ -193,8 +201,8 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "move": "thief",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -202,22 +210,18 @@
         },
         {
           "move": "icy_wind",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "detect",
           "klass": "BreedLearnableMove"
         },
         {
+          "move": "endure",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "false_swipe",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "swagger",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "attract",
           "klass": "TechLearnableMove"
         },
         {
@@ -225,19 +229,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "iron_tail",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
+          "move": "encore",
           "klass": "TechLearnableMove"
         },
         {
@@ -245,7 +237,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "hail",
+          "move": "whirlpool",
           "klass": "TechLearnableMove"
         },
         {
@@ -258,35 +250,27 @@
         },
         {
           "move": "helping_hand",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "knock_off",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "knock_off",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "aerial_ace",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "covet",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "water_pulse",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "brine",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "assurance",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "fling",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "trump_card",
-          "klass": "BreedLearnableMove"
         },
         {
           "move": "copycat",
@@ -297,15 +281,19 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "aqua_tail",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "air_slash",
           "klass": "BreedLearnableMove"
         },
         {
+          "move": "air_slash",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "x_scissor",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "avalanche",
           "klass": "TechLearnableMove"
         },
         {
@@ -313,19 +301,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "round",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "scald",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "water_pledge",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "work_up",
           "klass": "TechLearnableMove"
         },
         {
@@ -333,8 +309,28 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "liquidation",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "flip_turn",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "snowscape",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "chilling_water",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "aqua_cutter",
+          "klass": "BreedLearnableMove"
         },
         {
           "move": "rock_smash",
@@ -350,7 +346,7 @@
         }
       ],
       "formTextId": {
-        "name": 637,
+        "name": 665,
         "description": 0
       }
     }

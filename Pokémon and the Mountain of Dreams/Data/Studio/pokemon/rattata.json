@@ -39,14 +39,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 51,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "rattata",
       "babyForm": 0,
       "itemHeld": [
@@ -404,14 +404,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 51,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "rattata",
       "babyForm": 1,
       "itemHeld": [

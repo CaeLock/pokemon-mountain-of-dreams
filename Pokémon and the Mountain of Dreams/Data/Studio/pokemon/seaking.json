@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 158,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 60,
       "femaleRate": 50,
       "breedGroups": [
         12,
         12
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "goldeen",
       "babyForm": 0,
       "itemHeld": [
@@ -90,74 +90,61 @@
           "level": 1
         },
         {
-          "move": "megahorn",
+          "move": "water_pulse",
           "klass": "LevelLearnableMove",
           "level": 1
-        },
-        {
-          "move": "water_sport",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "poison_jab",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "supersonic",
-          "klass": "LevelLearnableMove",
-          "level": 5
         },
         {
           "move": "horn_attack",
           "klass": "LevelLearnableMove",
-          "level": 8
-        },
-        {
-          "move": "flail",
-          "klass": "LevelLearnableMove",
-          "level": 13
-        },
-        {
-          "move": "water_pulse",
-          "klass": "LevelLearnableMove",
-          "level": 16
-        },
-        {
-          "move": "aqua_ring",
-          "klass": "LevelLearnableMove",
-          "level": 21
-        },
-        {
-          "move": "fury_attack",
-          "klass": "LevelLearnableMove",
-          "level": 24
+          "level": 15
         },
         {
           "move": "agility",
           "klass": "LevelLearnableMove",
-          "level": 29
+          "level": 20
+        },
+        {
+          "move": "aqua_ring",
+          "klass": "LevelLearnableMove",
+          "level": 25
+        },
+        {
+          "move": "flail",
+          "klass": "LevelLearnableMove",
+          "level": 30
         },
         {
           "move": "waterfall",
           "klass": "LevelLearnableMove",
-          "level": 32
-        },
-        {
-          "move": "horn_drill",
-          "klass": "LevelLearnableMove",
-          "level": 40
+          "level": 37
         },
         {
           "move": "soak",
           "klass": "LevelLearnableMove",
-          "level": 46
+          "level": 44
         },
         {
           "move": "megahorn",
           "klass": "LevelLearnableMove",
-          "level": 54
+          "level": 51
+        },
+        {
+          "move": "horn_drill",
+          "klass": "LevelLearnableMove",
+          "level": 58
+        },
+        {
+          "move": "swords_dance",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "body_slam",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "hydro_pump",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "surf",
@@ -176,15 +163,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
+          "move": "agility",
           "klass": "TechLearnableMove"
         },
         {
           "move": "waterfall",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
@@ -197,7 +184,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -205,10 +192,10 @@
         },
         {
           "move": "icy_wind",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -220,19 +207,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
+          "move": "megahorn",
           "klass": "TechLearnableMove"
         },
         {
           "move": "rain_dance",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "whirlpool",
           "klass": "TechLearnableMove"
         },
         {
@@ -244,28 +227,24 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "knock_off",
-          "klass": "TutorLearnableMove"
+          "move": "dive",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
+          "move": "muddy_water",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "bounce",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "water_pulse",
-          "klass": "TutorLearnableMove"
+          "move": "mud_shot",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "poison_jab",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "aqua_tail",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "giga_impact",
@@ -281,27 +260,27 @@
         },
         {
           "move": "drill_run",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "confide",
           "klass": "TechLearnableMove"
         },
         {
           "move": "throat_chop",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "smart_strike",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "dive",
-          "klass": "TechLearnableMove"
+          "move": "scale_shot",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "flip_turn",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 153,
+        "name": 164,
         "description": 0
       }
     }

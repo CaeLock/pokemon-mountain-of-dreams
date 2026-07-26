@@ -5,7 +5,7 @@
   "mapUse": 0,
   "battleEngineMethod": "s_multi_attack",
   "type": "normal",
-  "power": 90,
+  "power": 120,
   "accuracy": 100,
   "pp": 10,
   "category": "physical",

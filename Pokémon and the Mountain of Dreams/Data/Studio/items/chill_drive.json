@@ -2,7 +2,7 @@
   "id": 119,
   "dbSymbol": "chill_drive",
   "icon": "119",
-  "price": 0,
+  "price": 1000,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,
@@ -10,7 +10,7 @@
   "isLimited": true,
   "isHoldable": true,
   "isAllowingMega": false,
-  "flingPower": 70,
+  "flingPower": 30,
   "klass": "Item",
   "isBerry": false
 }

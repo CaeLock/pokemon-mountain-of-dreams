@@ -2,7 +2,7 @@
   "id": 55,
   "dbSymbol": "guard_spec",
   "icon": "055",
-  "price": 1500,
+  "price": 700,
   "socket": 1,
   "position": 0,
   "isBattleUsable": true,
@@ -11,7 +11,6 @@
   "isHoldable": true,
   "isAllowingMega": false,
   "flingPower": 30,
-  "klass": "HealingItem",
-  "loyaltyMalus": -1,
+  "klass": "Item",
   "isBerry": false
 }

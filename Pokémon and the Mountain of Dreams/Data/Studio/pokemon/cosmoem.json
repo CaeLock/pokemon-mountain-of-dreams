@@ -60,7 +60,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "cosmoem",
       "babyForm": 0,
       "itemHeld": [
@@ -102,16 +102,11 @@
         },
         {
           "move": "cosmic_power",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "cosmic_power",
           "klass": "EvolutionLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 1032,
+        "name": 1075,
         "description": 0
       }
     }

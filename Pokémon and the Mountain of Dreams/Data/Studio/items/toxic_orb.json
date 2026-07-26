@@ -2,7 +2,7 @@
   "id": 272,
   "dbSymbol": "toxic_orb",
   "icon": "272",
-  "price": 4000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

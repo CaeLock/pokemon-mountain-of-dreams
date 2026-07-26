@@ -31,7 +31,7 @@
         4,
         4
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "chatot",
       "babyForm": 0,
       "itemHeld": [
@@ -339,7 +339,7 @@
         }
       ],
       "formTextId": {
-        "name": 549,
+        "name": 575,
         "description": 0
       }
     }

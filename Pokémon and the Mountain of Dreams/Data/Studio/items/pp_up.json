@@ -2,7 +2,7 @@
   "id": 51,
   "dbSymbol": "pp_up",
   "icon": "051",
-  "price": 10000,
+  "price": 9800,
   "socket": 6,
   "position": 0,
   "isBattleUsable": false,
@@ -12,7 +12,7 @@
   "isAllowingMega": false,
   "flingPower": 30,
   "klass": "PPIncreaseItem",
-  "loyaltyMalus": -5,
+  "loyaltyMalus": 0,
   "isMax": false,
   "isBerry": false
 }

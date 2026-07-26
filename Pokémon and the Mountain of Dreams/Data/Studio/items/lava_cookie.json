@@ -2,7 +2,7 @@
   "id": 42,
   "dbSymbol": "lava_cookie",
   "icon": "042",
-  "price": 350,
+  "price": 200,
   "socket": 6,
   "position": 200,
   "isBattleUsable": true,

@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 0,
       "baseExperience": 140,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 60,
       "femaleRate": 75,
       "breedGroups": [
         5,
         6
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "skitty",
       "babyForm": 0,
       "itemHeld": [
@@ -296,7 +296,7 @@
         }
       ],
       "formTextId": {
-        "name": 377,
+        "name": 403,
         "description": 0
       }
     }

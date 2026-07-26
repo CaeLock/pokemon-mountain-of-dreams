@@ -34,14 +34,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 216,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         4,
         4
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "pidgey",
       "babyForm": 0,
       "itemHeld": [
@@ -321,14 +321,14 @@
       "evolutions": [],
       "experienceType": 3,
       "baseExperience": 261,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         4,
         4
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "pidgey",
       "babyForm": 0,
       "itemHeld": [

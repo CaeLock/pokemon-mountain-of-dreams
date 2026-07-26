@@ -2,7 +2,7 @@
   "id": 494,
   "dbSymbol": "lure_ball",
   "icon": "494",
-  "price": 0,
+  "price": 300,
   "socket": 2,
   "position": 0,
   "isBattleUsable": true,

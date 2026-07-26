@@ -2,7 +2,7 @@
   "id": 241,
   "dbSymbol": "black_belt",
   "icon": "241",
-  "price": 1000,
+  "price": 100,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

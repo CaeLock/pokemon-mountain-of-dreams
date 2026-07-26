@@ -32,7 +32,7 @@
   "isRecharge": false,
   "isSnatchable": false,
   "isSoundAttack": false,
-  "isSlicingAttack": false,
+  "isSlicingAttack": true,
   "isUnfreeze": false,
   "isWind": false,
   "battleEngineAimedTarget": "adjacent_pokemon",

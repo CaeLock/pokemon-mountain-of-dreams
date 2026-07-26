@@ -31,7 +31,7 @@
         15,
         15
       ],
-      "hatchSteps": 30720,
+      "hatchSteps": 15360,
       "babyDbSymbol": "xurkitree",
       "babyForm": 0,
       "itemHeld": [
@@ -77,92 +77,78 @@
           "level": 1
         },
         {
-          "move": "spark",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
           "move": "charge",
           "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "tail_glow",
-          "klass": "LevelLearnableMove",
-          "level": 1
+          "level": 5
         },
         {
           "move": "thunder_wave",
           "klass": "LevelLearnableMove",
-          "level": 7
-        },
-        {
-          "move": "shock_wave",
-          "klass": "LevelLearnableMove",
-          "level": 13
+          "level": 10
         },
         {
           "move": "ingrain",
           "klass": "LevelLearnableMove",
-          "level": 19
+          "level": 15
         },
         {
-          "move": "thunder_punch",
+          "move": "spark",
           "klass": "LevelLearnableMove",
-          "level": 23
+          "level": 20
         },
         {
-          "move": "eerie_impulse",
+          "move": "shock_wave",
           "klass": "LevelLearnableMove",
-          "level": 29
-        },
-        {
-          "move": "signal_beam",
-          "klass": "LevelLearnableMove",
-          "level": 31
-        },
-        {
-          "move": "thunderbolt",
-          "klass": "LevelLearnableMove",
-          "level": 37
+          "level": 25
         },
         {
           "move": "hypnosis",
           "klass": "LevelLearnableMove",
-          "level": 43
+          "level": 30
+        },
+        {
+          "move": "eerie_impulse",
+          "klass": "LevelLearnableMove",
+          "level": 35
+        },
+        {
+          "move": "thunder_punch",
+          "klass": "LevelLearnableMove",
+          "level": 40
         },
         {
           "move": "discharge",
           "klass": "LevelLearnableMove",
-          "level": 47
+          "level": 45
+        },
+        {
+          "move": "magnet_rise",
+          "klass": "LevelLearnableMove",
+          "level": 50
+        },
+        {
+          "move": "thunderbolt",
+          "klass": "LevelLearnableMove",
+          "level": 55
         },
         {
           "move": "electric_terrain",
           "klass": "LevelLearnableMove",
-          "level": 53
+          "level": 60
         },
         {
           "move": "power_whip",
           "klass": "LevelLearnableMove",
-          "level": 59
-        },
-        {
-          "move": "ion_deluge",
-          "klass": "LevelLearnableMove",
-          "level": 67
+          "level": 65
         },
         {
           "move": "zap_cannon",
           "klass": "LevelLearnableMove",
-          "level": 73
+          "level": 70
         },
         {
           "move": "thunder_punch",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "bind",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "hyper_beam",
@@ -185,14 +171,6 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "light_screen",
           "klass": "TechLearnableMove"
         },
@@ -210,30 +188,18 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
           "move": "sleep_talk",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -249,36 +215,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "nature_power",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "magic_coat",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "calm_mind",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "shock_wave",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "gravity",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "fling",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "energy_ball",
@@ -289,11 +231,15 @@
           "klass": "TechLearnableMove"
         },
         {
+          "move": "power_whip",
+          "klass": "TechLearnableMove"
+        },
+        {
           "move": "grass_knot",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "charge_beam",
+          "move": "electro_ball",
           "klass": "TechLearnableMove"
         },
         {
@@ -306,14 +252,18 @@
         },
         {
           "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "wild_charge",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "eerie_impulse",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "electric_terrain",
           "klass": "TechLearnableMove"
         },
         {
@@ -323,10 +273,14 @@
         {
           "move": "brutal_swing",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "rising_voltage",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 1038,
+        "name": 1081,
         "description": 0
       }
     }

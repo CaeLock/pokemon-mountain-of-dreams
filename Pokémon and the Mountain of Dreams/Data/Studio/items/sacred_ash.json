@@ -2,7 +2,7 @@
   "id": 44,
   "dbSymbol": "sacred_ash",
   "icon": "044",
-  "price": 50000,
+  "price": 200,
   "socket": 6,
   "position": 0,
   "isBattleUsable": false,

@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 60,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 130,
       "femaleRate": -1,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "klink",
       "babyForm": 0,
       "itemHeld": [
@@ -83,78 +83,69 @@
           "level": 1
         },
         {
-          "move": "charge",
-          "klass": "LevelLearnableMove",
-          "level": 6
-        },
-        {
           "move": "thunder_shock",
           "klass": "LevelLearnableMove",
-          "level": 11
-        },
-        {
-          "move": "gear_grind",
-          "klass": "LevelLearnableMove",
-          "level": 16
+          "level": 1
         },
         {
           "move": "bind",
           "klass": "LevelLearnableMove",
-          "level": 21
+          "level": 4
+        },
+        {
+          "move": "charge",
+          "klass": "LevelLearnableMove",
+          "level": 8
         },
         {
           "move": "charge_beam",
           "klass": "LevelLearnableMove",
-          "level": 26
-        },
-        {
-          "move": "autotomize",
-          "klass": "LevelLearnableMove",
-          "level": 31
-        },
-        {
-          "move": "mirror_shot",
-          "klass": "LevelLearnableMove",
-          "level": 36
-        },
-        {
-          "move": "screech",
-          "klass": "LevelLearnableMove",
-          "level": 39
-        },
-        {
-          "move": "discharge",
-          "klass": "LevelLearnableMove",
-          "level": 42
+          "level": 12
         },
         {
           "move": "metal_sound",
           "klass": "LevelLearnableMove",
-          "level": 45
+          "level": 16
         },
         {
-          "move": "shift_gear",
+          "move": "autotomize",
           "klass": "LevelLearnableMove",
-          "level": 48
+          "level": 20
+        },
+        {
+          "move": "discharge",
+          "klass": "LevelLearnableMove",
+          "level": 24
+        },
+        {
+          "move": "screech",
+          "klass": "LevelLearnableMove",
+          "level": 28
+        },
+        {
+          "move": "gear_grind",
+          "klass": "LevelLearnableMove",
+          "level": 32
         },
         {
           "move": "lock_on",
           "klass": "LevelLearnableMove",
-          "level": 50
+          "level": 36
+        },
+        {
+          "move": "shift_gear",
+          "klass": "LevelLearnableMove",
+          "level": 40
         },
         {
           "move": "zap_cannon",
           "klass": "LevelLearnableMove",
-          "level": 54
+          "level": 44
         },
         {
           "move": "hyper_beam",
           "klass": "LevelLearnableMove",
-          "level": 57
-        },
-        {
-          "move": "bind",
-          "klass": "TutorLearnableMove"
+          "level": 48
         },
         {
           "move": "hyper_beam",
@@ -169,11 +160,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
+          "move": "screech",
           "klass": "TechLearnableMove"
         },
         {
@@ -186,7 +173,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -197,7 +184,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -205,68 +192,28 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "uproar",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "facade",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "magic_coat",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "recycle",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "shock_wave",
-          "klass": "TutorLearnableMove"
+          "move": "assurance",
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "gravity",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "rock_polish",
+          "move": "power_gem",
           "klass": "TechLearnableMove"
         },
         {
           "move": "flash_cannon",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "charge_beam",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "telekinesis",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "round",
@@ -281,8 +228,16 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
-          "klass": "TechLearnableMove"
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "steel_roller",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "rising_voltage",
+          "klass": "TutorLearnableMove"
         },
         {
           "move": "rock_smash",
@@ -290,7 +245,7 @@
         }
       ],
       "formTextId": {
-        "name": 744,
+        "name": 781,
         "description": 0
       }
     }

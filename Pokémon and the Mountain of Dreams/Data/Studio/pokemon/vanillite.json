@@ -35,14 +35,14 @@
       ],
       "experienceType": 2,
       "baseExperience": 61,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
         10,
         10
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "vanillite",
       "babyForm": 0,
       "itemHeld": [
@@ -78,79 +78,74 @@
       },
       "moveSet": [
         {
-          "move": "icicle_spear",
+          "move": "harden",
           "klass": "LevelLearnableMove",
           "level": 1
         },
         {
-          "move": "harden",
-          "klass": "LevelLearnableMove",
-          "level": 4
-        },
-        {
           "move": "astonish",
           "klass": "LevelLearnableMove",
-          "level": 7
-        },
-        {
-          "move": "uproar",
-          "klass": "LevelLearnableMove",
-          "level": 10
-        },
-        {
-          "move": "icy_wind",
-          "klass": "LevelLearnableMove",
-          "level": 13
-        },
-        {
-          "move": "mist",
-          "klass": "LevelLearnableMove",
-          "level": 16
-        },
-        {
-          "move": "avalanche",
-          "klass": "LevelLearnableMove",
-          "level": 19
+          "level": 1
         },
         {
           "move": "taunt",
           "klass": "LevelLearnableMove",
-          "level": 22
+          "level": 4
         },
         {
-          "move": "mirror_shot",
+          "move": "mist",
           "klass": "LevelLearnableMove",
-          "level": 26
+          "level": 8
         },
         {
-          "move": "acid_armor",
+          "move": "icy_wind",
           "klass": "LevelLearnableMove",
-          "level": 31
+          "level": 12
         },
         {
-          "move": "ice_beam",
+          "move": "avalanche",
           "klass": "LevelLearnableMove",
-          "level": 35
+          "level": 16
         },
         {
           "move": "hail",
           "klass": "LevelLearnableMove",
-          "level": 40
+          "level": 20
+        },
+        {
+          "move": "icicle_spear",
+          "klass": "LevelLearnableMove",
+          "level": 24
+        },
+        {
+          "move": "uproar",
+          "klass": "LevelLearnableMove",
+          "level": 28
+        },
+        {
+          "move": "acid_armor",
+          "klass": "LevelLearnableMove",
+          "level": 32
         },
         {
           "move": "mirror_coat",
           "klass": "LevelLearnableMove",
-          "level": 44
+          "level": 36
+        },
+        {
+          "move": "ice_beam",
+          "klass": "LevelLearnableMove",
+          "level": 40
         },
         {
           "move": "blizzard",
           "klass": "LevelLearnableMove",
-          "level": 49
+          "level": 44
         },
         {
           "move": "sheer_cold",
           "klass": "LevelLearnableMove",
-          "level": 53
+          "level": 48
         },
         {
           "move": "ice_beam",
@@ -158,14 +153,6 @@
         },
         {
           "move": "blizzard",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
           "klass": "TechLearnableMove"
         },
         {
@@ -173,8 +160,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "explosion",
+          "move": "self_destruct",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "explosion",
+          "klass": "BreedLearnableMove"
         },
         {
           "move": "rest",
@@ -186,11 +177,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "powder_snow",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
@@ -198,10 +185,10 @@
         },
         {
           "move": "icy_wind",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -213,24 +200,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "frustration",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "rain_dance",
           "klass": "TechLearnableMove"
         },
         {
           "move": "uproar",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "hail",
@@ -245,44 +220,28 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "magic_coat",
-          "klass": "TutorLearnableMove"
-        },
-        {
           "move": "imprison",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "signal_beam",
-          "klass": "TutorLearnableMove"
+          "move": "hyper_voice",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "icicle_spear",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "iron_defense",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "iron_defense",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "water_pulse",
-          "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "water_pulse",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "natural_gift",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "magnet_rise",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
+          "move": "avalanche",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "ice_shard",
@@ -302,19 +261,19 @@
         },
         {
           "move": "ally_switch",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "frost_breath",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "confide",
-          "klass": "TechLearnableMove"
+          "move": "icicle_crash",
+          "klass": "BreedLearnableMove"
+        },
+        {
+          "move": "aurora_veil",
+          "klass": "BreedLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 721,
+        "name": 758,
         "description": 0
       }
     }

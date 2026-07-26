@@ -2,7 +2,7 @@
   "id": 545,
   "dbSymbol": "absorb_bulb",
   "icon": "545",
-  "price": 4000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

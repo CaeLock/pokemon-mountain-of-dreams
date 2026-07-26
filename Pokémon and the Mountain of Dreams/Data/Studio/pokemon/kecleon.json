@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 3,
       "baseExperience": 154,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 200,
       "femaleRate": 50,
       "breedGroups": [
         5,
         5
       ],
-      "hatchSteps": 5120,
+      "hatchSteps": 2560,
       "babyDbSymbol": "kecleon",
       "babyForm": 0,
       "itemHeld": [
@@ -475,7 +475,7 @@
         }
       ],
       "formTextId": {
-        "name": 439,
+        "name": 465,
         "description": 0
       }
     }

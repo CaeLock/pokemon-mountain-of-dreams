@@ -2,7 +2,7 @@
   "id": 17,
   "dbSymbol": "potion",
   "icon": "017",
-  "price": 200,
+  "price": 300,
   "socket": 6,
   "position": 1,
   "isBattleUsable": true,

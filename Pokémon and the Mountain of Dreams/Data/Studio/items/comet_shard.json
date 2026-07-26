@@ -2,7 +2,7 @@
   "id": 583,
   "dbSymbol": "comet_shard",
   "icon": "583",
-  "price": 60000,
+  "price": 30000,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,

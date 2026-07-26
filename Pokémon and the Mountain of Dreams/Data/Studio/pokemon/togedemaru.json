@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 152,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 180,
       "femaleRate": 50,
       "breedGroups": [
         5,
         6
       ],
-      "hatchSteps": 2560,
+      "hatchSteps": 1280,
       "babyDbSymbol": "togedemaru",
       "babyForm": 0,
       "itemHeld": [
@@ -72,7 +72,7 @@
           "level": 1
         },
         {
-          "move": "thunder_shock",
+          "move": "nuzzle",
           "klass": "LevelLearnableMove",
           "level": 1
         },
@@ -82,68 +82,67 @@
           "level": 5
         },
         {
-          "move": "rollout",
-          "klass": "LevelLearnableMove",
-          "level": 9
-        },
-        {
           "move": "charge",
           "klass": "LevelLearnableMove",
-          "level": 13
+          "level": 10
         },
         {
-          "move": "spark",
+          "move": "thunder_shock",
           "klass": "LevelLearnableMove",
-          "level": 17
-        },
-        {
-          "move": "nuzzle",
-          "klass": "LevelLearnableMove",
-          "level": 21
-        },
-        {
-          "move": "magnet_rise",
-          "klass": "LevelLearnableMove",
-          "level": 25
-        },
-        {
-          "move": "discharge",
-          "klass": "LevelLearnableMove",
-          "level": 29
-        },
-        {
-          "move": "zing_zap",
-          "klass": "LevelLearnableMove",
-          "level": 33
-        },
-        {
-          "move": "electric_terrain",
-          "klass": "LevelLearnableMove",
-          "level": 37
-        },
-        {
-          "move": "wild_charge",
-          "klass": "LevelLearnableMove",
-          "level": 41
-        },
-        {
-          "move": "pin_missile",
-          "klass": "LevelLearnableMove",
-          "level": 45
-        },
-        {
-          "move": "spiky_shield",
-          "klass": "LevelLearnableMove",
-          "level": 49
+          "level": 15
         },
         {
           "move": "fell_stinger",
           "klass": "LevelLearnableMove",
-          "level": 53
+          "level": 20
         },
         {
-          "move": "twineedle",
-          "klass": "BreedLearnableMove"
+          "move": "spark",
+          "klass": "LevelLearnableMove",
+          "level": 25
+        },
+        {
+          "move": "pin_missile",
+          "klass": "LevelLearnableMove",
+          "level": 30
+        },
+        {
+          "move": "magnet_rise",
+          "klass": "LevelLearnableMove",
+          "level": 35
+        },
+        {
+          "move": "zing_zap",
+          "klass": "LevelLearnableMove",
+          "level": 40
+        },
+        {
+          "move": "discharge",
+          "klass": "LevelLearnableMove",
+          "level": 45
+        },
+        {
+          "move": "electric_terrain",
+          "klass": "LevelLearnableMove",
+          "level": 50
+        },
+        {
+          "move": "wild_charge",
+          "klass": "LevelLearnableMove",
+          "level": 55
+        },
+        {
+          "move": "spiky_shield",
+          "klass": "LevelLearnableMove",
+          "level": 60
+        },
+        {
+          "move": "pin_missile",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "hyper_beam",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "thunderbolt",
@@ -158,11 +157,7 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "toxic",
-          "klass": "TechLearnableMove"
-        },
-        {
-          "move": "double_team",
+          "move": "agility",
           "klass": "TechLearnableMove"
         },
         {
@@ -170,12 +165,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "rest",
+          "move": "swift",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "super_fang",
-          "klass": "TutorLearnableMove"
+          "move": "rest",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "substitute",
@@ -187,7 +182,7 @@
         },
         {
           "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "flail",
@@ -195,14 +190,14 @@
         },
         {
           "move": "reversal",
-          "klass": "BreedLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "protect",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "swagger",
+          "move": "endure",
           "klass": "TechLearnableMove"
         },
         {
@@ -214,27 +209,15 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "return",
-          "klass": "TechLearnableMove"
-        },
-        {
           "move": "present",
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "frustration",
+          "move": "encore",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "encore",
-          "klass": "BreedLearnableMove"
-        },
-        {
           "move": "iron_tail",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "hidden_power",
           "klass": "TechLearnableMove"
         },
         {
@@ -247,19 +230,11 @@
         },
         {
           "move": "helping_hand",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "role_play",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "wish",
           "klass": "BreedLearnableMove"
-        },
-        {
-          "move": "endeavor",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "tickle",
@@ -267,19 +242,7 @@
         },
         {
           "move": "bounce",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "covet",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "shock_wave",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "gravity",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "gyro_ball",
@@ -294,16 +257,12 @@
           "klass": "TechLearnableMove"
         },
         {
-          "move": "fling",
+          "move": "assurance",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "last_resort",
-          "klass": "TutorLearnableMove"
-        },
-        {
-          "move": "magnet_rise",
-          "klass": "TutorLearnableMove"
+          "move": "fling",
+          "klass": "TechLearnableMove"
         },
         {
           "move": "poison_jab",
@@ -315,23 +274,19 @@
         },
         {
           "move": "zen_headbutt",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "iron_head",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "grass_knot",
           "klass": "TechLearnableMove"
         },
         {
-          "move": "charge_beam",
+          "move": "electro_ball",
           "klass": "TechLearnableMove"
-        },
-        {
-          "move": "after_you",
-          "klass": "TutorLearnableMove"
         },
         {
           "move": "round",
@@ -347,7 +302,7 @@
         },
         {
           "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "wild_charge",
@@ -358,12 +313,28 @@
           "klass": "BreedLearnableMove"
         },
         {
-          "move": "confide",
+          "move": "eerie_impulse",
           "klass": "TechLearnableMove"
+        },
+        {
+          "move": "electric_terrain",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "steel_beam",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "steel_roller",
+          "klass": "TutorLearnableMove"
+        },
+        {
+          "move": "rising_voltage",
+          "klass": "TutorLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 1018,
+        "name": 1061,
         "description": 0
       }
     }

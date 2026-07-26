@@ -24,14 +24,14 @@
       "evolutions": [],
       "experienceType": 1,
       "baseExperience": 148,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 45,
       "femaleRate": 0,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "burmy",
       "babyForm": 0,
       "itemHeld": [
@@ -321,7 +321,7 @@
         }
       ],
       "formTextId": {
-        "name": 518,
+        "name": 544,
         "description": 0
       }
     }

@@ -1,7 +1,7 @@
 {
-  "id": 842,
+  "id": 1271,
   "dbSymbol": "fishing_rod",
-  "icon": "842",
+  "icon": "1271",
   "price": 0,
   "socket": 5,
   "position": 0,
@@ -11,6 +11,7 @@
   "isHoldable": false,
   "isAllowingMega": false,
   "flingPower": 0,
-  "klass": "Item",
+  "klass": "EventItem",
+  "eventId": 22,
   "isBerry": false
 }

@@ -2,7 +2,7 @@
   "id": 2,
   "dbSymbol": "ultra_ball",
   "icon": "002",
-  "price": 800,
+  "price": 1200,
   "socket": 2,
   "position": 3,
   "isBattleUsable": true,

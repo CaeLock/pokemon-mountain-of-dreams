@@ -2,7 +2,7 @@
   "id": 79,
   "dbSymbol": "repel",
   "icon": "079",
-  "price": 400,
+  "price": 350,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,
@@ -10,7 +10,7 @@
   "isLimited": true,
   "isHoldable": true,
   "isAllowingMega": false,
-  "flingPower": 30,
+  "flingPower": 0,
   "klass": "RepelItem",
   "repelCount": 100,
   "isBerry": false

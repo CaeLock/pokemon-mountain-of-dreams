@@ -2,7 +2,7 @@
   "id": 20,
   "dbSymbol": "ice_heal",
   "icon": "020",
-  "price": 100,
+  "price": 250,
   "socket": 6,
   "position": 102,
   "isBattleUsable": true,

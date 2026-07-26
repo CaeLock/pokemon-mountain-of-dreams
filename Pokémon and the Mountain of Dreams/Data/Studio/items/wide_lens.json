@@ -2,7 +2,7 @@
   "id": 265,
   "dbSymbol": "wide_lens",
   "icon": "265",
-  "price": 4000,
+  "price": 200,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,
@@ -11,6 +11,9 @@
   "isHoldable": true,
   "isAllowingMega": false,
   "flingPower": 10,
-  "klass": "Item",
+  "klass": "StatBoostItem",
+  "loyaltyMalus": 0,
+  "count": 1,
+  "stat": "ACC_STAGE",
   "isBerry": false
 }

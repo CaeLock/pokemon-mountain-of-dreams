@@ -35,14 +35,14 @@
       ],
       "experienceType": 1,
       "baseExperience": 75,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 120,
       "femaleRate": 50,
       "breedGroups": [
         3,
         3
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "scatterbug",
       "babyForm": 0,
       "itemHeld": [
@@ -84,11 +84,6 @@
         },
         {
           "move": "protect",
-          "klass": "LevelLearnableMove",
-          "level": 1
-        },
-        {
-          "move": "protect",
           "klass": "EvolutionLearnableMove"
         },
         {
@@ -97,19 +92,27 @@
         },
         {
           "move": "iron_defense",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
           "move": "bug_bite",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove"
         },
         {
-          "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "move": "struggle_bug",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "tera_blast",
+          "klass": "TechLearnableMove"
+        },
+        {
+          "move": "pounce",
+          "klass": "TechLearnableMove"
         }
       ],
       "formTextId": {
-        "name": 822,
+        "name": 861,
         "description": 0
       }
     }

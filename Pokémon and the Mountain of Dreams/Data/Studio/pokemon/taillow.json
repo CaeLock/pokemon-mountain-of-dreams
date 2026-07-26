@@ -35,14 +35,14 @@
       ],
       "experienceType": 3,
       "baseExperience": 54,
-      "baseLoyalty": 70,
+      "baseLoyalty": 50,
       "catchRate": 200,
       "femaleRate": 50,
       "breedGroups": [
         4,
         4
       ],
-      "hatchSteps": 3840,
+      "hatchSteps": 1920,
       "babyDbSymbol": "taillow",
       "babyForm": 0,
       "itemHeld": [
@@ -316,7 +316,7 @@
         }
       ],
       "formTextId": {
-        "name": 351,
+        "name": 377,
         "description": 0
       }
     }

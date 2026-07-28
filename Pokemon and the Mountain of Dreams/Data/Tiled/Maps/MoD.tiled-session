@@ -1,0 +1,492 @@
+{
+    "activeFile": "023 IntroGame.tmx",
+    "automapping.whileDrawing": true,
+    "expandedProjectPaths": [
+        ".",
+        "maps"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "000 Blank_Template.tmx": {
+            "scale": 0.79970703125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 511.4372939308829,
+                "y": 512.0625228965686
+            }
+        },
+        "001 TitleScreenAnimation.tmx": {
+            "scale": 0.6011,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 573.115954084179,
+                "y": 539.8436200299452
+            }
+        },
+        "002 Intro.tmx": {
+            "scale": 0.79970703125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 512.0625228965686,
+                "y": 512.0625228965686
+            }
+        },
+        "004 Elevator 1.tmx": {
+            "scale": 0.9478009259259259,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 399.87300036634514,
+                "y": 432.0527536939798
+            }
+        },
+        "005 River.tmx": {
+            "scale": 2,
+            "selectedLayer": 33,
+            "viewCenter": {
+                "x": 1268,
+                "y": 1024.75
+            }
+        },
+        "006 Beach.tmx": {
+            "scale": 1,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 1018,
+                "y": 958.5
+            }
+        },
+        "010 CyclingRoad.tmx": {
+            "scale": 0.399853515625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1024.1250457931371,
+                "y": 1024.1250457931371
+            }
+        },
+        "012 Elevator 2.tmx": {
+            "scale": 0.9478009259259259,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 430.9976798143852,
+                "y": 431.5252167541825
+            }
+        },
+        "019 Exterior.tmx": {
+            "scale": 0.26656901041666664,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 767.1559408963244,
+                "y": 1536.1875686897058
+            }
+        },
+        "023 IntroGame.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 437.66666666666663,
+                "y": 294.33333333333326
+            }
+        },
+        "023 intro_map.tmx": {
+            "expandedGroupLayers": [
+                4,
+                5
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 241,
+                "y": 169.66666666666669
+            }
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/marco/AppData/Local/Temp/7zO4A26D4E8/Ancient Ruins-Tileset-wall-8.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/AppData/Local/Temp/7zO4A26D4E8/Ancient Ruins-wall-8-rule.tmx": {
+            "scale": 0.056076388888888884,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 9273.065015479877,
+                "y": 668.7306501547992
+            }
+        },
+        "C:/Users/marco/AppData/Local/Temp/7zO86BBB1D6/Ancient Ruins-Tileset-wall-8.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/AppData/Local/Temp/7zO86BBB1D6/Ancient Ruins-wall-8-rule.tmx": {
+            "scale": 0.056076388888888884,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 10048.792569659445,
+                "y": 668.7306501547992
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 12.5,
+                "y": 130.5
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Bridges": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation10": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation11": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation12": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation13": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation14": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation2": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation3": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation4": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation5": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation6": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation8": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/Bridges/PNG_n_Tiled/Bridges.tmx#Water_animation9": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-Tileset-wall-8.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Ancient Ruins-wall-8-rule.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 326,
+                "y": 411.66666666666663
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Terrain - Ancient Ruins.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/TiledMap Editor Example Demo- Ancient Ruins.tmx": {
+            "scale": 8,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 370,
+                "y": 50.9375
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/Atardecer/Arte/EPIC RPG World Pack - [FREE Demo]Ancient Ruins - Copia/TiledMap Editor/Tileset-Animated Terrains-8 frames--.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 2
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Maps/005 River.tmx": {
+            "scale": 0.0394287109375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 13391.256965944274,
+                "y": 1052.5325077399375
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Maps/019 Exterior.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3704,
+                "y": 346
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Maps/rules_routetest.tmx": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": -15.5,
+                "y": -133.75
+            }
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Animations.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Assets.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Buildings.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Misc..tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Mounts.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-Nature.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/TECH-borders.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/passages.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Desktop/Fangames/PSDK demo/Data/Tiled/Tilesets/systemtags.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/MoD Maps/exterior_spring.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/MoD Maps/passages.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Animations.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Assets.tsx": {
+            "scaleInDock": 0.5
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Buildings.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Misc..tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Mounts.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Nature.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-borders.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx": {
+            "scaleInDock": 2
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/water_animations.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 3
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Assets.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Nature.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/TECH-Animations.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Tilesets/TECH-Assets.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/TECH-Buildings.tsx": {
+            "scaleInDock": 0.33
+        },
+        "Tilesets/TECH-Elevator.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/TECH-Misc..tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/TECH-Mounts.tsx": {
+            "scaleInDock": 0.25
+        },
+        "Tilesets/TECH-Nature.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 0.75
+        },
+        "Tilesets/TECH-borders.tsx": {
+            "scaleInDock": 1
+        },
+        "Tilesets/exterior_spring.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "Tilesets/passages.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tilesets/systemtags.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "Tilesets/terrain_tag.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "exterior_spring.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 2
+        },
+        "maps/route_test.tmx": {
+            "scale": 1,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 320,
+                "y": 320
+            }
+        },
+        "panorama_intro_map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 498,
+                "y": 167.33333333333337
+            }
+        },
+        "passages.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "prio_w.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "route_test.tmx": {
+            "scale": 1,
+            "selectedLayer": 13,
+            "viewCenter": {
+                "x": 319.5,
+                "y": 318.5
+            }
+        },
+        "rules_TECH_assets.tmx": {
+            "scale": 1.0501953124999999,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 463.7232657615771,
+                "y": 254.71452482797105
+            }
+        },
+        "rules_TECH_buildings.tmx": {
+            "scale": 0.5712,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 85.78431372549016,
+                "y": 2.626050420167985
+            }
+        },
+        "rules_TECH_nature.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 674.6666666666666,
+                "y": 256.5
+            }
+        },
+        "rules_TECH_trees.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 21,
+            "viewCenter": {
+                "x": 768,
+                "y": 512
+            }
+        },
+        "rules_routetest.tmx": {
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 0,
+                "y": -256
+            }
+        },
+        "rules_test.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 418.66666666666663,
+                "y": 256.5
+            }
+        },
+        "systemtags.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "terrain_tag.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokémon and the Mountain of Dreams/Data/Tiled/Tilesets",
+    "last.imagePath": "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Assets",
+    "map.fixedSize": true,
+    "map.height": 18,
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": "3",
+    "map.width": 20,
+    "openFiles": [
+        "route_test.tmx",
+        "rules_routetest.tmx",
+        "rules_TECH_trees.tmx",
+        "019 Exterior.tmx",
+        "panorama_intro_map.tmx",
+        "023 IntroGame.tmx"
+    ],
+    "project": "MoD.tiled-project",
+    "recentFiles": [
+        "route_test.tmx",
+        "rules_routetest.tmx",
+        "rules_TECH_trees.tmx",
+        "019 Exterior.tmx",
+        "panorama_intro_map.tmx",
+        "023 IntroGame.tmx",
+        "002 Intro.tmx",
+        "001 TitleScreenAnimation.tmx",
+        "023 intro_map.tmx",
+        "006 Beach.tmx",
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx",
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Nature.tsx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx"
+}

@@ -2,4 +2,6 @@ rules_TECH_trees.tmx
 rules_TECH_buildings.tmx
 rules_TECH_assets.tmx
 rules_TECH_nature.tmx
-rules_routetest.tmx
+rules_dreams_mountain.tmx
+rules_dreams_trees.tmx
+rules_dreams_nature.tmx

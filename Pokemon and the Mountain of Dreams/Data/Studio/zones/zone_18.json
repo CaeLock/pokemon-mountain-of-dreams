@@ -3,7 +3,8 @@
   "id": 18,
   "dbSymbol": "zone_18",
   "maps": [
-    22
+    22,
+    25
   ],
   "worldmaps": [],
   "panelId": 0,
@@ -18,7 +19,5 @@
   "isFlyAllowed": true,
   "isWarpDisallowed": false,
   "forcedWeather": 0,
-  "wildGroups": [
-    "group_1"
-  ]
+  "wildGroups": []
 }

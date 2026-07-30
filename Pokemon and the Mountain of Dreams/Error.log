@@ -1,21 +1,20 @@
 ================================Erreur de script================================
 Message :
-undefined method `set_panorama_zoom' for #<Game_Map:0x108c7380>
+Unexpected String value. $game_variables store numbers and nothing else, use $option to store anything else.
 
-Type : NoMethodError
-Script : (eval) (RMXP)
-Ligne : 4
-Date : 28/07/2026 01:30:50
+Type : TypeError
+Script : 1_RMXP_Scripts.rb (PSDK)
+Ligne : 69
+Date : 30/07/2026 18:27:19
 Game Version : 256
 Logiciel : PSDK 26.58
 Script used by eval command : 
-$game_map.panorama_auto_scroll = true
-$game_map.panorama_scroll_speed = 1
-$game_map.set_panorama_zoom(0.5)  
+$game_variables[102] = 'Nerine'
 
 
 ===================================Backtraces===================================
-[26] : (eval) (RMXP) | ligne 4 eval_X3
+[27] : 1_RMXP_Scripts.rb (PSDK) | ligne 69 []=
+[26] : (eval) (RMXP) | ligne 2 eval_X7
 [25] : 1_RMXP_Scripts.rb (PSDK) | ligne 2145 eval_script
 [24] : 1_RMXP_Scripts.rb (PSDK) | ligne 2137 command_355
 [23] : 1_RMXP_Scripts.rb (PSDK) | ligne 1121 execute_command

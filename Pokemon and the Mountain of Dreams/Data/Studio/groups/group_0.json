@@ -5,7 +5,19 @@
   "systemTag": "Pond",
   "terrainTag": 0,
   "tool": "OldRod",
-  "customConditions": [],
+  "vsType": "simple",
+  "customConditions": [
+    {
+      "type": "mapId",
+      "relationWithPreviousCondition": "AND",
+      "value": 22
+    },
+    {
+      "type": "mapId",
+      "relationWithPreviousCondition": "OR",
+      "value": 25
+    }
+  ],
   "encounters": [
     {
       "specie": "magikarp",
@@ -92,6 +104,5 @@
       ]
     }
   ],
-  "stepsAverage": 0,
-  "vsType": "simple"
+  "stepsAverage": 0
 }

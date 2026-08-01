@@ -11,6 +11,7 @@
   "isHoldable": true,
   "isAllowingMega": false,
   "flingPower": 0,
+  "isBerry": false,
   "klass": "BallItem",
   "spriteFilename": "ball_4",
   "catchRate": 255,
@@ -19,6 +20,5 @@
     "green": 0,
     "blue": 0,
     "alpha": 255
-  },
-  "isBerry": false
+  }
 }

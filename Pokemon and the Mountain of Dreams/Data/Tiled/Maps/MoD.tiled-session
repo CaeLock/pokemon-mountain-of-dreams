@@ -149,10 +149,10 @@
         },
         "024 AccessMountain.tmx": {
             "scale": 0.75,
-            "selectedLayer": 8,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 716,
-                "y": 400.6666666666667
+                "x": 868,
+                "y": 1352.6666666666665
             }
         },
         ":/automap-tiles.tsx": {
@@ -364,14 +364,14 @@
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 4,
             "scaleInEditor": 1.5
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
             "scaleInDock": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx": {
-            "scaleInDock": 1.5
+            "scaleInDock": 2
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx": {
             "scaleInDock": 1
@@ -520,24 +520,24 @@
             "scale": 0.75,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 142.66666666666663,
-                "y": -486
+                "x": 256,
+                "y": -512
             }
         },
         "rules_dreams_nature.tmx": {
-            "scale": 1,
-            "selectedLayer": 0,
+            "scale": 1.5,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": -112,
-                "y": -276.5
+                "x": 0,
+                "y": -256
             }
         },
         "rules_dreams_trees.tmx": {
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -248.66666666666669,
-                "y": -363.66666666666663
+                "x": 0,
+                "y": -256
             }
         },
         "rules_mountain_trees.tmx": {

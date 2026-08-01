@@ -9,8 +9,13 @@
   "customConditions": [
     {
       "type": "mapId",
-      "relationWithPreviousCondition": "AND",
-      "value": 22
+      "value": 22,
+      "relationWithPreviousCondition": "AND"
+    },
+    {
+      "type": "mapId",
+      "relationWithPreviousCondition": "OR",
+      "value": 25
     }
   ],
   "encounters": [

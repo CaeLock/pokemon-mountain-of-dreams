@@ -313,13 +313,38 @@
   },
   "26": {
     "id": 26,
+    "children": [
+      27,
+      28
+    ],
+    "hasChildren": true,
+    "isExpanded": true,
+    "data": {
+      "klass": "MapInfoMap",
+      "mapDbSymbol": "map025",
+      "parentId": 24
+    }
+  },
+  "27": {
+    "id": 27,
     "children": [],
     "hasChildren": false,
     "isExpanded": false,
     "data": {
       "klass": "MapInfoMap",
-      "mapDbSymbol": "map025",
-      "parentId": 24
+      "mapDbSymbol": "map026",
+      "parentId": 26
+    }
+  },
+  "28": {
+    "id": 28,
+    "children": [],
+    "hasChildren": false,
+    "isExpanded": false,
+    "data": {
+      "klass": "MapInfoMap",
+      "mapDbSymbol": "map027",
+      "parentId": 26
     }
   }
 }

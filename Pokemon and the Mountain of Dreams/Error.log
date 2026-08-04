@@ -1,20 +1,20 @@
 ================================Erreur de script================================
 Message :
-undefined method `line_number_over' for #<UI::Message::Window:0x1133e4d0>
+Database Error: The Creature #shroodel doesn't exist.
 
-Type : NoMethodError
-Script : (eval) (RMXP)
-Ligne : 2
-Date : 01/08/2026 02:09:02
+Type : RuntimeError
+Script : 2_PSDK_Event_Interpreter.rb (PSDK)
+Ligne : 283
+Date : 04/08/2026 02:03:22
 Game Version : 256
 Logiciel : PSDK 26.58
 Script used by eval command : 
-$scene.message_window.line_number_over
-write = 3
+cry_pokemon(:shroodel)
 
 
 ===================================Backtraces===================================
-[26] : (eval) (RMXP) | ligne 2 eval_X2
+[27] : 2_PSDK_Event_Interpreter.rb (PSDK) | ligne 283 cry_pokemon
+[26] : (eval) (RMXP) | ligne 2 eval_X12
 [25] : 1_RMXP_Scripts.rb (PSDK) | ligne 2145 eval_script
 [24] : 1_RMXP_Scripts.rb (PSDK) | ligne 2137 command_355
 [23] : 1_RMXP_Scripts.rb (PSDK) | ligne 1121 execute_command

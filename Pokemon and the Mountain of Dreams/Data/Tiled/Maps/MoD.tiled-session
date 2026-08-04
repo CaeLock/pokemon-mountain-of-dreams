@@ -2,8 +2,8 @@
     "activeFile": "024 AccessMountain.tmx",
     "automapping.whileDrawing": true,
     "expandedProjectPaths": [
-        ".",
-        "maps"
+        "maps",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -148,11 +148,27 @@
             }
         },
         "024 AccessMountain.tmx": {
-            "scale": 0.75,
-            "selectedLayer": 1,
+            "scale": 3,
+            "selectedLayer": 13,
             "viewCenter": {
-                "x": 868,
-                "y": 1352.6666666666665
+                "x": 416.33333333333337,
+                "y": 1327.5
+            }
+        },
+        "025 SlumberingLog.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 293.3333333333333,
+                "y": 245
+            }
+        },
+        "026 SlumberingLogRoom.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.66666666666663,
+                "y": 85.66666666666669
             }
         },
         ":/automap-tiles.tsx": {
@@ -320,6 +336,10 @@
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/MoD Maps/passages.tsx": {
             "scaleInDock": 1
         },
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/Interiors.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 2
+        },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Animations.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 2
@@ -364,14 +384,14 @@
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 2,
             "scaleInEditor": 1.5
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
             "scaleInDock": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/systemtags.tsx": {
-            "scaleInDock": 2
+            "scaleInDock": 1.5
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/terrain_tag.tsx": {
             "scaleInDock": 1
@@ -444,7 +464,7 @@
             "scale": 1.0236249999999998,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 400.04884601294424,
+                "x": 399.56038588350236,
                 "y": 400.04884601294424
             }
         },
@@ -516,20 +536,28 @@
                 "y": 512
             }
         },
+        "rules_dreams_interior.tmx": {
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": -276.5,
+                "y": -338.75
+            }
+        },
         "rules_dreams_mountain.tmx": {
             "scale": 0.75,
             "selectedLayer": 6,
             "viewCenter": {
                 "x": 256,
-                "y": -512
+                "y": -512.6666666666666
             }
         },
         "rules_dreams_nature.tmx": {
             "scale": 1.5,
-            "selectedLayer": 1,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 0,
-                "y": -256
+                "x": -148.66666666666669,
+                "y": -256.3333333333333
             }
         },
         "rules_dreams_trees.tmx": {
@@ -583,23 +611,24 @@
     "openFiles": [
         "024 AccessMountain.tmx",
         "rules_dreams_mountain.tmx",
+        "025 SlumberingLog.tmx",
         "rules_dreams_nature.tmx",
-        "rules_dreams_trees.tmx"
+        "rules_dreams_interior.tmx"
     ],
     "project": "MoD.tiled-project",
     "recentFiles": [
-        "rules_dreams_trees.tmx",
+        "rules_dreams_interior.tmx",
         "rules_dreams_nature.tmx",
+        "025 SlumberingLog.tmx",
         "rules_dreams_mountain.tmx",
         "024 AccessMountain.tmx",
+        "026 SlumberingLogRoom.tmx",
+        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/Interiors.tsx",
+        "empty_map.tmx",
+        "rules_dreams_trees.tmx",
         "009 Tundra.tmx",
         "008 Marsh.tmx",
-        "007 Cave.tmx",
-        "005 River.tmx",
-        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx",
-        "006 Beach.tmx",
-        "011 RocketHQ.tmx",
-        "010 CyclingRoad.tmx"
+        "007 Cave.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"

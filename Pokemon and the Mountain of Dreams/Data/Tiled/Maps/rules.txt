@@ -5,3 +5,4 @@ rules_TECH_nature.tmx
 rules_dreams_mountain.tmx
 rules_dreams_trees.tmx
 rules_dreams_nature.tmx
+rules_dreams_interior.tmx

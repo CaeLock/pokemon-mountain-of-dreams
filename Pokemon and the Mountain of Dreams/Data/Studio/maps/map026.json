@@ -1,0 +1,2852 @@
+{
+  "klass": "Map",
+  "id": 26,
+  "dbSymbol": "map026",
+  "stepsAverage": 30,
+  "bgm": {
+    "name": "",
+    "volume": 100,
+    "pitch": 100
+  },
+  "bgs": {
+    "name": "",
+    "volume": 100,
+    "pitch": 100
+  },
+  "mtime": 1785800895732,
+  "sha1": "966964b1230cb590016b1f7472e84d5cbfd4bfec",
+  "tiledFilename": "025 SlumberingLog",
+  "tileMetadata": {
+    "width": 20,
+    "height": 17,
+    "tilesets": [
+      {
+        "firstGlobalId": 1,
+        "source": "../Tilesets/Interiors.tsx"
+      },
+      {
+        "firstGlobalId": 785,
+        "source": "../Tilesets/passages.tsx"
+      },
+      {
+        "firstGlobalId": 929,
+        "source": "../Tilesets/systemtags.tsx"
+      }
+    ],
+    "tileByTileId": [
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 38,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 39,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 115,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 116,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 117,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 201,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 11,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 66,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 39,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 67,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 143,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 130,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 144,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 131,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 145,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 132,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 57,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 58,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 143,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 266,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 57,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 144,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 267,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 259,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 232,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 66,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 234,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 235,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 171,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 158,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 172,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 159,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 173,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 160,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 171,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 294,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 57,
+          "transformId": 0
+        },
+        {
+          "globalId": 172,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 295,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 286,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 260,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 262,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 29,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 263,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 30,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 186,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 29,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 187,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 188,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 314,
+          "transformId": 0
+        },
+        {
+          "passage": 15
+        }
+      ],
+      [
+        {
+          "globalId": 30,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 290,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 85,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 291,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 58,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 57,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 194,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 113,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 198,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 253,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 199,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 254,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 272,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 273,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 274,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 199,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 318,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 319,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 222,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 289,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 226,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 281,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 227,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 282,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 300,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 301,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 227,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 302,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 384,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 227,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 1,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 346,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 347,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "priority": 1
+        },
+        {
+          "globalId": 165,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 250,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 317,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 309,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 310,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 58,
+          "transformId": 0
+        },
+        {
+          "globalId": 30,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 353,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 230,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 58,
+          "transformId": 0
+        },
+        {
+          "globalId": 29,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 354,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 412,
+          "transformId": 0
+        },
+        {
+          "passage": 15
+        }
+      ],
+      [
+        {
+          "globalId": 355,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 374,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 375,
+          "transformId": 0
+        },
+        {
+          "systemTag": 418
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 193,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 345,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 381,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 382,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 383,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 213,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 214,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 409,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 410,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 411,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 241,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 242,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 58,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 242,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 255,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 57,
+          "transformId": 0
+        },
+        {
+          "globalId": 242,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 258,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 256,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 257,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 288,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 1,
+          "transformId": 0
+        },
+        {
+          "globalId": 29,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 337,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 137,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 338,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 339,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 437,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 438,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 439,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 269,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 270,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 258,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 283,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 284,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 285,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 278,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 287,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 316,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 365,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 165,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 366,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 367,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 465,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 466,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 467,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 270,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 311,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 312,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 313,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 306,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 315,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 344,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 182,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 183,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 184,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 297,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 298,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 298,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 182,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 334,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 184,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 343,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 210,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 211,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 212,
+          "transformId": 0
+        },
+        {
+          "passage": 0
+        }
+      ],
+      [
+        {
+          "globalId": 325,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 326,
+          "transformId": 0
+        }
+      ],
+      [
+        {
+          "globalId": 327,
+          "transformId": 0
+        }
+      ]
+    ],
+    "layerData": [
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        3,
+        12,
+        13
+      ],
+      [
+        3,
+        14,
+        15
+      ],
+      [
+        3,
+        16,
+        17
+      ],
+      [
+        3,
+        12,
+        13
+      ],
+      [
+        3,
+        14,
+        15
+      ],
+      [
+        3,
+        16,
+        17
+      ],
+      [
+        3,
+        12,
+        13
+      ],
+      [
+        3,
+        14,
+        15
+      ],
+      [
+        3,
+        16,
+        17
+      ],
+      [
+        3,
+        12,
+        13
+      ],
+      [
+        3,
+        14,
+        15
+      ],
+      [
+        18,
+        16,
+        17
+      ],
+      [
+        19,
+        20,
+        21
+      ],
+      [
+        22,
+        23,
+        24
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        26
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        3,
+        29
+      ],
+      [
+        3,
+        30,
+        31
+      ],
+      [
+        3,
+        32,
+        33
+      ],
+      [
+        3,
+        34,
+        35
+      ],
+      [
+        3,
+        30,
+        31
+      ],
+      [
+        3,
+        32,
+        33
+      ],
+      [
+        3,
+        34,
+        35
+      ],
+      [
+        3,
+        30,
+        31
+      ],
+      [
+        3,
+        32,
+        33
+      ],
+      [
+        3,
+        34,
+        35
+      ],
+      [
+        3,
+        30,
+        31
+      ],
+      [
+        3,
+        32,
+        33
+      ],
+      [
+        18,
+        34,
+        35
+      ],
+      [
+        19,
+        36,
+        37
+      ],
+      [
+        38,
+        39,
+        40
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        3,
+        42
+      ],
+      [
+        3,
+        43,
+        44
+      ],
+      [
+        3,
+        45,
+        46
+      ],
+      [
+        3,
+        47,
+        48
+      ],
+      [
+        3,
+        45,
+        49
+      ],
+      [
+        3,
+        47,
+        46
+      ],
+      [
+        3,
+        45
+      ],
+      [
+        3,
+        47,
+        49
+      ],
+      [
+        3,
+        45,
+        46
+      ],
+      [
+        3,
+        47,
+        48
+      ],
+      [
+        3,
+        45,
+        49
+      ],
+      [
+        3,
+        47,
+        46
+      ],
+      [
+        3,
+        45
+      ],
+      [
+        3,
+        47,
+        49
+      ],
+      [
+        45
+      ],
+      [
+        43,
+        50
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        3,
+        51,
+        52
+      ],
+      [
+        3,
+        53,
+        54
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        22,
+        57
+      ],
+      [
+        55
+      ],
+      [
+        56
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        58,
+        59,
+        60
+      ],
+      [
+        3,
+        61,
+        62
+      ],
+      [
+        3,
+        61,
+        63
+      ],
+      [
+        3,
+        61,
+        64
+      ],
+      [
+        3,
+        61,
+        65
+      ],
+      [
+        3,
+        66,
+        13
+      ],
+      [
+        3,
+        66,
+        15
+      ],
+      [
+        3,
+        66,
+        17
+      ],
+      [
+        3,
+        66
+      ],
+      [
+        3,
+        61,
+        67
+      ],
+      [
+        3,
+        61,
+        68
+      ],
+      [
+        3,
+        61,
+        63
+      ],
+      [
+        3,
+        61,
+        64
+      ],
+      [
+        3,
+        22,
+        69
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        70
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        3,
+        71,
+        72
+      ],
+      [
+        3,
+        73,
+        74
+      ],
+      [
+        3,
+        73,
+        75
+      ],
+      [
+        3,
+        73,
+        76
+      ],
+      [
+        77,
+        78,
+        79
+      ],
+      [
+        3,
+        80,
+        31
+      ],
+      [
+        3,
+        80,
+        33
+      ],
+      [
+        3,
+        80,
+        35
+      ],
+      [
+        3,
+        80,
+        40
+      ],
+      [
+        81,
+        73,
+        82
+      ],
+      [
+        3,
+        73,
+        83
+      ],
+      [
+        77,
+        75,
+        40
+      ],
+      [
+        77,
+        76,
+        84
+      ],
+      [
+        3,
+        22,
+        85
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        86
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        22,
+        43,
+        87
+      ],
+      [
+        19,
+        51,
+        88
+      ],
+      [
+        19,
+        43,
+        70
+      ],
+      [
+        89,
+        90,
+        91
+      ],
+      [
+        92,
+        93,
+        94
+      ],
+      [
+        89,
+        95,
+        46
+      ],
+      [
+        19,
+        47,
+        48
+      ],
+      [
+        19,
+        45,
+        49
+      ],
+      [
+        19,
+        43,
+        50
+      ],
+      [
+        19,
+        19,
+        96
+      ],
+      [
+        19,
+        22,
+        97
+      ],
+      [
+        19,
+        51,
+        50
+      ],
+      [
+        19,
+        43,
+        98
+      ],
+      [
+        3,
+        22,
+        85
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        99
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        22,
+        47
+      ],
+      [
+        22,
+        55
+      ],
+      [
+        22,
+        22,
+        86
+      ],
+      [
+        22,
+        19,
+        100
+      ],
+      [
+        22,
+        22,
+        101
+      ],
+      [
+        22,
+        19,
+        102
+      ],
+      [
+        22,
+        56
+      ],
+      [
+        22,
+        19,
+        103
+      ],
+      [
+        22,
+        22,
+        104
+      ],
+      [
+        22,
+        19,
+        104
+      ],
+      [
+        22,
+        22,
+        104
+      ],
+      [
+        22,
+        19,
+        104
+      ],
+      [
+        19,
+        22,
+        104
+      ],
+      [
+        3,
+        22,
+        85
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        91
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        41
+      ],
+      [
+        3,
+        47
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        22,
+        86
+      ],
+      [
+        3,
+        19,
+        105
+      ],
+      [
+        3,
+        22,
+        106
+      ],
+      [
+        3,
+        19,
+        107
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        19,
+        108
+      ],
+      [
+        3,
+        22,
+        109
+      ],
+      [
+        110,
+        111,
+        112
+      ],
+      [
+        113,
+        114,
+        115
+      ],
+      [
+        110,
+        111,
+        116
+      ],
+      [
+        3,
+        22,
+        109
+      ],
+      [
+        3,
+        22,
+        85
+      ],
+      [
+        55
+      ],
+      [
+        56
+      ],
+      [
+        25
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        117
+      ],
+      [
+        118,
+        119,
+        120
+      ],
+      [
+        3,
+        19,
+        121
+      ],
+      [
+        3,
+        22,
+        122
+      ],
+      [
+        3,
+        19,
+        123
+      ],
+      [
+        3,
+        22,
+        124
+      ],
+      [
+        3,
+        19,
+        125
+      ],
+      [
+        3,
+        56
+      ],
+      [
+        3,
+        19,
+        126
+      ],
+      [
+        18,
+        127,
+        128
+      ],
+      [
+        110,
+        127,
+        129
+      ],
+      [
+        18,
+        127,
+        130
+      ],
+      [
+        110,
+        127,
+        131
+      ],
+      [
+        18,
+        127,
+        128
+      ],
+      [
+        3,
+        22,
+        132
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        120
+      ],
+      [
+        133
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        134
+      ],
+      [
+        118,
+        135,
+        136
+      ],
+      [
+        3,
+        19,
+        137
+      ],
+      [
+        18,
+        138,
+        40
+      ],
+      [
+        3,
+        19,
+        139
+      ],
+      [
+        3,
+        22,
+        140
+      ],
+      [
+        3,
+        19,
+        141
+      ],
+      [
+        3,
+        56,
+        40
+      ],
+      [
+        3,
+        19,
+        126
+      ],
+      [
+        3,
+        22,
+        142
+      ],
+      [
+        110,
+        127,
+        143
+      ],
+      [
+        18,
+        127,
+        144
+      ],
+      [
+        110,
+        127,
+        145
+      ],
+      [
+        18,
+        127,
+        128
+      ],
+      [
+        3,
+        22,
+        146
+      ],
+      [
+        55
+      ],
+      [
+        22,
+        136
+      ],
+      [
+        147
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        148
+      ],
+      [
+        3,
+        43,
+        98
+      ],
+      [
+        3,
+        55
+      ],
+      [
+        3,
+        22,
+        50
+      ],
+      [
+        3,
+        19,
+        149
+      ],
+      [
+        3,
+        22,
+        150
+      ],
+      [
+        3,
+        19,
+        151
+      ],
+      [
+        3,
+        22,
+        50
+      ],
+      [
+        3,
+        19,
+        152
+      ],
+      [
+        3,
+        22,
+        153
+      ],
+      [
+        3,
+        19,
+        153
+      ],
+      [
+        18,
+        154,
+        128
+      ],
+      [
+        3,
+        19,
+        153
+      ],
+      [
+        3,
+        22,
+        153
+      ],
+      [
+        18,
+        155,
+        156
+      ],
+      [
+        19,
+        150
+      ],
+      [
+        22,
+        157,
+        98
+      ],
+      [
+        158
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        3,
+        159
+      ],
+      [
+        3,
+        160
+      ],
+      [
+        3,
+        161
+      ],
+      [
+        0
+      ],
+      [
+        3,
+        162,
+        8
+      ],
+      [
+        3,
+        163,
+        8
+      ],
+      [
+        3,
+        163,
+        8
+      ],
+      [
+        3,
+        163,
+        8
+      ],
+      [
+        3,
+        163,
+        8
+      ],
+      [
+        3,
+        164,
+        8
+      ],
+      [
+        3,
+        159
+      ],
+      [
+        3,
+        160
+      ],
+      [
+        3,
+        161
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ]
+  }
+}

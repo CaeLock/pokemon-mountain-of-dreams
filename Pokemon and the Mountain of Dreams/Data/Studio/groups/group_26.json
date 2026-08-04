@@ -2,6 +2,22 @@
   "klass": "Group",
   "id": 26,
   "dbSymbol": "group_26",
+  "systemTag": "Grass",
+  "terrainTag": 0,
+  "tool": null,
+  "vsType": "simple",
+  "customConditions": [
+    {
+      "type": "mapId",
+      "value": 22,
+      "relationWithPreviousCondition": "AND"
+    },
+    {
+      "type": "mapId",
+      "value": 25,
+      "relationWithPreviousCondition": "OR"
+    }
+  ],
   "encounters": [
     {
       "specie": "mankey",
@@ -13,8 +29,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 11,
-          "maximumLevel": 15
+          "minimumLevel": 14,
+          "maximumLevel": 17
         }
       },
       "randomEncounterChance": 25,
@@ -55,8 +71,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 12,
-          "maximumLevel": 15
+          "minimumLevel": 15,
+          "maximumLevel": 18
         }
       },
       "randomEncounterChance": 20,
@@ -97,8 +113,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 15,
-          "maximumLevel": 16
+          "minimumLevel": 18,
+          "maximumLevel": 19
         }
       },
       "randomEncounterChance": 10,
@@ -139,8 +155,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 11,
-          "maximumLevel": 15
+          "minimumLevel": 14,
+          "maximumLevel": 17
         }
       },
       "randomEncounterChance": 25,
@@ -181,8 +197,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 12,
-          "maximumLevel": 15
+          "minimumLevel": 15,
+          "maximumLevel": 18
         }
       },
       "randomEncounterChance": 20,
@@ -214,21 +230,5 @@
       ]
     }
   ],
-  "vsType": "simple",
-  "systemTag": "Grass",
-  "terrainTag": 0,
-  "customConditions": [
-    {
-      "type": "mapId",
-      "relationWithPreviousCondition": "AND",
-      "value": 22
-    },
-    {
-      "type": "mapId",
-      "relationWithPreviousCondition": "OR",
-      "value": 25
-    }
-  ],
-  "tool": null,
   "stepsAverage": 30
 }

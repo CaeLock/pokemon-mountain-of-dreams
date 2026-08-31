@@ -1,0 +1,27 @@
+#### Tiles ####
+
+- dpp_style_grander_underground_tileset: alchemybats_dlrt10h
+- Interiors: Princess-Phoenix
+- Exterior and decorations:
+
+Magiscarf
+Scarloxy
+Kino.pixelart
+RafaelMatosmo
+LimeZu
+Jesus Carrasco
+KioRaka
+Craftpix
+Pablus
+Carchagui
+Zetavares
+
+#### Panorama and Fogs ####
+
+- Wind animation: NYKNCK 
+- Crosscode
+
+#### Overworlds and Battlers ####
+
+- OW: Bellis, KingTapir
+- Shine: ClaraDragon

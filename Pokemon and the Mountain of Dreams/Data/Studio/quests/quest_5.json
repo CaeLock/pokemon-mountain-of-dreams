@@ -1,0 +1,19 @@
+{
+  "klass": "Quest",
+  "id": 5,
+  "dbSymbol": "quest_5",
+  "isPrimary": false,
+  "resolution": "default",
+  "objectives": [
+    {
+      "objectiveMethodName": "objective_obtain_item",
+      "objectiveMethodArgs": [
+        "family_memento",
+        1
+      ],
+      "textFormatMethodName": "text_obtain_item",
+      "hiddenByDefault": false
+    }
+  ],
+  "earnings": []
+}

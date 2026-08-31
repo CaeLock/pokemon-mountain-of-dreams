@@ -1,0 +1,17 @@
+{
+  "id": 943,
+  "dbSymbol": "poke_aid",
+  "icon": "3000",
+  "price": 0,
+  "socket": 5,
+  "position": 0,
+  "isBattleUsable": false,
+  "isMapUsable": true,
+  "isLimited": false,
+  "isHoldable": false,
+  "isAllowingMega": false,
+  "flingPower": 0,
+  "isBerry": false,
+  "klass": "EventItem",
+  "eventId": 57
+}

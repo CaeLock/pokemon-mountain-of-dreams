@@ -1,0 +1,155 @@
+{
+  "klass": "TrainerBattleSetup",
+  "id": 14,
+  "dbSymbol": "trainer_14",
+  "vsType": 2,
+  "isCouple": false,
+  "baseMoney": 68,
+  "bagEntries": [
+    {
+      "dbSymbol": "potion",
+      "amount": 1
+    }
+  ],
+  "battleId": 0,
+  "ai": 6,
+  "party": [
+    {
+      "specie": "bagon",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 14
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 31,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 31,
+            "dfs": 31
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 31,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 31,
+            "ats": 31,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "ember",
+            "dragon_breath",
+            "defense_curl",
+            "bite"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Mona"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "rock_head"
+        }
+      ]
+    },
+    {
+      "specie": "tyrogue",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 14
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 31,
+            "atk": 31,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 31
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "mach_punch",
+            "rest",
+            "helping_hand",
+            "sleep_talk"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Mona"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "guts"
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "sprite": "ace_trainer_mona",
+    "artworkFull": "",
+    "artworkSmall": "",
+    "character": "",
+    "musics": {
+      "encounter": "",
+      "victory": "",
+      "defeat": "",
+      "bgm": ""
+    }
+  },
+  "additionalDialogs": []
+}

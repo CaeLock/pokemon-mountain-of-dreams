@@ -1,0 +1,16 @@
+{
+  "klass": "Item",
+  "id": 942,
+  "dbSymbol": "room_key_lodge",
+  "icon": "730",
+  "price": 0,
+  "socket": 5,
+  "position": 0,
+  "isBattleUsable": false,
+  "isMapUsable": false,
+  "isLimited": false,
+  "isHoldable": false,
+  "isAllowingMega": false,
+  "isBerry": false,
+  "flingPower": 30
+}

@@ -1,0 +1,142 @@
+{
+  "klass": "TrainerBattleSetup",
+  "id": 16,
+  "dbSymbol": "trainer_16",
+  "vsType": 2,
+  "isCouple": false,
+  "baseMoney": 48,
+  "bagEntries": [],
+  "battleId": 0,
+  "ai": 2,
+  "party": [
+    {
+      "specie": "tynamo",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 15
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Cathy"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "koffing",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 14
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Cathy"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "sprite": "scientist_f_1",
+    "artworkFull": "",
+    "artworkSmall": "",
+    "character": "",
+    "musics": {
+      "encounter": "",
+      "victory": "",
+      "defeat": "",
+      "bgm": ""
+    }
+  },
+  "additionalDialogs": []
+}

@@ -42,5 +42,25 @@
    <wangtile tileid="126" wangid="1,1,1,0,0,0,1,1"/>
    <wangtile tileid="127" wangid="1,0,0,0,0,0,1,1"/>
   </wangset>
+  <wangset name="mountain" type="corner" tile="-1">
+   <wangcolor name="" color="#00ff7f" tile="-1" probability="1"/>
+   <wangtile tileid="1553" wangid="1,0,1,1,1,0,1,0"/>
+   <wangtile tileid="1554" wangid="1,0,1,1,0,1,1,0"/>
+   <wangtile tileid="1555" wangid="1,0,1,1,0,1,1,0"/>
+   <wangtile tileid="1556" wangid="1,0,1,0,1,1,1,0"/>
+   <wangtile tileid="1557" wangid="1,1,1,1,1,1,1,1"/>
+   <wangtile tileid="1569" wangid="1,1,0,1,1,0,1,0"/>
+   <wangtile tileid="1570" wangid="1,1,0,1,0,1,1,0"/>
+   <wangtile tileid="1571" wangid="1,0,1,1,0,1,0,1"/>
+   <wangtile tileid="1572" wangid="1,0,1,0,1,1,0,1"/>
+   <wangtile tileid="1585" wangid="1,1,0,1,1,0,1,0"/>
+   <wangtile tileid="1586" wangid="0,1,0,1,1,0,1,1"/>
+   <wangtile tileid="1587" wangid="0,1,1,0,1,1,0,1"/>
+   <wangtile tileid="1588" wangid="1,0,1,0,1,1,0,1"/>
+   <wangtile tileid="1601" wangid="1,1,1,0,1,0,1,0"/>
+   <wangtile tileid="1602" wangid="0,1,1,0,1,0,1,1"/>
+   <wangtile tileid="1603" wangid="0,1,1,0,1,0,1,1"/>
+   <wangtile tileid="1604" wangid="1,0,1,0,1,0,1,1"/>
+  </wangset>
  </wangsets>
 </tileset>

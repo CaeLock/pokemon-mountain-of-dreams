@@ -1,35 +1,3 @@
-# Lets the player type a Pokemon species name (via the standard name-input
-# keyboard UI) and receive that Pokemon, with validation against evolutionary
-# stage and a restricted species list, and full starter/egg handling.
-#
-# Requires pokemon_starter_flag.rb (for PFM::Pokemon#starter=/#starter?) to be
-# loaded somewhere in the project - load order between the two files doesn't
-# matter, since starter= is only called inside a method body here, not at load time.
-#
-# Call from an event's "Call Script":
-#   give_pokemon_by_name(5)                                     # level 5, starter, not an egg
-#   give_pokemon_by_name(20, is_starter: false)                 # ordinary Pokemon, not protected/no assured IVs
-#   give_pokemon_by_name(1, is_egg: true)                       # given as an egg (always created at level 1, ignores the level argument)
-#
-# If you already know the species (no typed input needed), call the lower-level
-# give_named_pokemon(db_symbol_or_id, level, is_starter: true, is_egg: false) directly.
-#
-# Validation rules (checked against the ACTUAL Studio database, not a static list):
-#   - The species must not be in GIVE_NAMED_POKEMON_RESTRICTED_SPECIES below
-#   - The species must be a first stage / standalone species: it's rejected if
-#     ANY other species has an evolution pointing to it (e.g. Pikachu is
-#     rejected because Pichu evolves into it; Pichu and Absol are both fine)
-#
-# Language handling: species name matching compares against Studio::Creature#name,
-# which already resolves through the currently active $options.language (confirmed
-# in 3_Studio.rb: "load text in the correct lang ($options.language or LANG in
-# game.ini)") - so whatever language the game (and therefore its UI) is running
-# in is automatically the language the match is made against. No per-language
-# code needed on top of that.
-#
-# Note: this only matches against the base species name (form 0). Alternate
-# forms with their own distinct display name (e.g. certain regional/special
-# forms) aren't separately matched by typed name.
 class Interpreter
   # Species that can never be given via give_named_pokemon/give_pokemon_by_name
   GIVE_NAMED_POKEMON_RESTRICTED_SPECIES = %i[
@@ -58,11 +26,15 @@ class Interpreter
     ragingbolt ironboulder ironcrown terapagos pecharunt
   ].freeze
 
-  # Message shown when the typed name doesn't resolve to a givable species
-  GIVE_NAMED_POKEMON_INVALID_MESSAGE = "That Pokémon can't be given this way."
+  # Message shown when the typed name doesn't resolve to any known species at all
+  GIVE_NAMED_POKEMON_NOT_FOUND_MESSAGE = "That doesn't seem to be the name of any known Pokémon."
+
+  # Message shown when the typed name resolves to a real species, but that
+  # species isn't allowed to be given (restricted or not first-stage)
+  GIVE_NAMED_POKEMON_INVALID_MESSAGE = 'Thou dost not possess the strength to manifest that dream. Call not upon evolved or unique Pokémon.'
 
   # Prompt shown when asking which form to give
-  GIVE_NAMED_POKEMON_FORM_PROMPT = 'Which form would you like?'
+  GIVE_NAMED_POKEMON_FORM_PROMPT = 'In what form doth thy dream manifest?'
 
   # @return [Boolean] whether db_symbol has no other species evolving into it (first stage/standalone)
   def first_stage_species?(db_symbol)
@@ -74,27 +46,38 @@ class Interpreter
   def named_pokemon_species_allowed?(db_symbol)
     return false unless db_symbol
     return false if data_creature(db_symbol).db_symbol != db_symbol # species doesn't actually exist
-    return false if GIVE_NAMED_POKEMON_RESTRICTED_SPECIES.include?(db_symbol)
+
+    # Normalized (underscore-stripped) comparison, so this still blocks the
+    # species correctly whether your Studio project's db_symbol convention is
+    # e.g. :ironboulder or :iron_boulder - the list above only has to spell
+    # it one way, not match your project's exact convention.
+    return false if GIVE_NAMED_POKEMON_RESTRICTED_SPECIES.include?(db_symbol.to_s.delete('_').to_sym)
     return false unless first_stage_species?(db_symbol)
 
     true
   end
 
+  # Some species names use a typographic apostrophe (Farfetch'd, Sirfetch'd,
+  # etc.) that a normal keyboard can't type. Normalize both sides to a plain
+  # apostrophe so matching doesn't depend on which one the data uses.
+  APOSTROPHE_VARIANTS = /['’‘ʼ`]/.freeze
+
   # Resolves a typed name to a species db_symbol by matching against the
   # currently active language's creature names (see language handling note above)
   # @param typed_name [String]
   # @return [Symbol, nil]
-  # Some species names use a typographic apostrophe (Farfetch'd, Sirfetch'd,
-# etc.) that a normal keyboard can't type. Normalize both sides to a plain
-# apostrophe so matching doesn't depend on which one the data uses.
-APOSTROPHE_VARIANTS = /['’‘ʼ`]/.freeze
+  def resolve_species_from_name(typed_name)
+    normalized = typed_name.to_s.strip.downcase.gsub(APOSTROPHE_VARIANTS, "'")
+    return nil if normalized.empty?
 
-def resolve_species_from_name(typed_name)
-  normalized = typed_name.to_s.strip.downcase.gsub(APOSTROPHE_VARIANTS, "'")
-  return nil if normalized.empty?
+    each_data_creature.find { |creature| creature.name.strip.downcase.gsub(APOSTROPHE_VARIANTS, "'") == normalized }&.db_symbol
+  end
 
-  each_data_creature.find { |creature| creature.name.strip.downcase.gsub(APOSTROPHE_VARIANTS, "'") == normalized }&.db_symbol
-end
+  # @return [Symbol, nil] a random species db_symbol among every species
+  #   currently allowed by named_pokemon_species_allowed?, or nil if somehow none qualify
+  def random_allowed_species
+    each_data_creature.map(&:db_symbol).select { |db_symbol| named_pokemon_species_allowed?(db_symbol) }.sample
+  end
 
   # Builds the opts[:stats] IV array that assures the 3 highest base stats a
   # random 16-31 IV (the remaining 3 stay fully random, same as any other Pokemon)
@@ -111,14 +94,17 @@ end
   end
 
   # Creates and gives a Pokemon of a known, already-validated species
-  # @param pokemon [Symbol, Integer] db_symbol or ID of the species
+  # @param pokemon [Symbol, Integer, nil] db_symbol or ID of the species. Ignored
+  #   entirely (can be nil) when randomize: true.
   # @param level [Integer] level of the Pokemon (ignored if is_egg is true - eggs are always created at level 1, same as the Daycare)
   # @param is_starter [Boolean] true = marked as starter (protected from release, 3 highest base stats get an assured 16-31 IV)
   # @param is_egg [Boolean] true = given as an unhatched egg
   # @param form [Integer] form index, default 0
+  # @param randomize [Boolean] true = ignore +pokemon+ and pick a random species
+  #   among everything currently allowed (same rules as named_pokemon_species_allowed?)
   # @return [PFM::Pokemon, nil] the Pokemon that was given, or nil if the species isn't allowed or it couldn't be added
-  def give_named_pokemon(pokemon, level, is_starter: true, is_egg: false, form: 0)
-    db_symbol = pokemon.is_a?(Symbol) ? pokemon : data_creature(pokemon).db_symbol
+  def give_named_pokemon(pokemon, level, is_starter: true, is_egg: false, form: 0, randomize: false)
+    db_symbol = randomize ? random_allowed_species : (pokemon.is_a?(Symbol) ? pokemon : data_creature(pokemon).db_symbol)
     return nil unless named_pokemon_species_allowed?(db_symbol)
 
     creature_form = data_creature_form(db_symbol, form)
@@ -126,7 +112,21 @@ end
     new_pokemon = PFM::Pokemon.new(db_symbol, is_egg ? 1 : level, false, false, form, opts)
     new_pokemon.starter = true if is_starter
     new_pokemon.egg_init if is_egg
-    return add_pokemon(new_pokemon)
+    # Learn Revealed Power if there's a free slot (< 4 moves); if the moveset is
+    # already full, overwrite slot 0 instead of skipping it.
+    learned = new_pokemon.learn_skill(:revealed_power)
+    new_pokemon.replace_skill_index(0, :revealed_power) if learned.nil?
+    added = add_pokemon(new_pokemon)
+
+    if added
+      $game_system.me_play(RPG::AudioFile.new('Pokémon caught-evolved - HGSS', 100, 100))
+      $scene.message_window.windowskin_overwrite = 'm_18'
+      $scene.message_window.auto_skip = true
+      $scene.display_message("\\c[18]\\N[1] received \\c[27]#{new_pokemon.name}\\c[18]![WAIT 240]")
+    end
+
+    rename_pokemon(added, 12) if added
+    return added
   end
 
   # Asks the player which form to give, but only for species with known
@@ -156,6 +156,10 @@ end
     typed_name = nil
     $scene.call_scene(GamePlay.string_input_class, '', 12, nil, phrase: 'Enter the name of a Pokémon:') { |scene| typed_name = scene.return_name }
     db_symbol = resolve_species_from_name(typed_name)
+    if db_symbol.nil?
+      $scene.display_message(GIVE_NAMED_POKEMON_NOT_FOUND_MESSAGE)
+      return nil
+    end
     unless named_pokemon_species_allowed?(db_symbol)
       $scene.display_message(GIVE_NAMED_POKEMON_INVALID_MESSAGE)
       return nil

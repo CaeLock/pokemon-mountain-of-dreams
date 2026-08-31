@@ -1,0 +1,213 @@
+{
+  "klass": "TrainerBattleSetup",
+  "id": 17,
+  "dbSymbol": "trainer_17",
+  "vsType": 2,
+  "isCouple": false,
+  "baseMoney": 32,
+  "bagEntries": [
+    {
+      "dbSymbol": "x_sp_def",
+      "amount": 1
+    }
+  ],
+  "battleId": 0,
+  "ai": 4,
+  "party": [
+    {
+      "specie": "larvitar",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 16
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "sandstorm",
+            "sand_tomb",
+            "bite",
+            "leer"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Robin"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "sand_veil"
+        }
+      ]
+    },
+    {
+      "specie": "trapinch",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 15
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Robin"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "arena_trap"
+        }
+      ]
+    },
+    {
+      "specie": "toedscool",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 15
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "absorb",
+            "stun_spore",
+            "mud_slap",
+            "supersonic"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Robin"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "sprite": "hiker-03",
+    "artworkFull": "",
+    "artworkSmall": "",
+    "character": "",
+    "musics": {
+      "encounter": "",
+      "victory": "",
+      "defeat": "",
+      "bgm": ""
+    }
+  },
+  "additionalDialogs": []
+}

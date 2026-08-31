@@ -1,0 +1,142 @@
+{
+  "klass": "TrainerBattleSetup",
+  "id": 15,
+  "dbSymbol": "trainer_15",
+  "vsType": 2,
+  "isCouple": false,
+  "baseMoney": 24,
+  "bagEntries": [],
+  "battleId": 0,
+  "ai": 2,
+  "party": [
+    {
+      "specie": "taillow",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 13
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Alice"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "litleo",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 13
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Alice"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "sprite": "backpacker_f",
+    "artworkFull": "",
+    "artworkSmall": "",
+    "character": "",
+    "musics": {
+      "encounter": "",
+      "victory": "",
+      "defeat": "",
+      "bgm": ""
+    }
+  },
+  "additionalDialogs": []
+}

@@ -1,0 +1,37 @@
+{
+  "klass": "Quest",
+  "id": 3,
+  "dbSymbol": "quest_3",
+  "isPrimary": true,
+  "resolution": "default",
+  "objectives": [
+    {
+      "objectiveMethodName": "objective_custom",
+      "objectiveMethodArgs": [
+        0,
+        0
+      ],
+      "textFormatMethodName": "text_custom",
+      "hiddenByDefault": false
+    },
+    {
+      "objectiveMethodName": "objective_custom",
+      "objectiveMethodArgs": [
+        1,
+        1
+      ],
+      "textFormatMethodName": "text_custom",
+      "hiddenByDefault": false
+    },
+    {
+      "objectiveMethodName": "objective_custom",
+      "objectiveMethodArgs": [
+        2,
+        2
+      ],
+      "textFormatMethodName": "text_custom",
+      "hiddenByDefault": true
+    }
+  ],
+  "earnings": []
+}

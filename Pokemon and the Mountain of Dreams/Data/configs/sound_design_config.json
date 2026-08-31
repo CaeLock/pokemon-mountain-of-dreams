@@ -3,38 +3,38 @@
   "soundEffects": {
     "decision": {
       "name": "audio/se/select.wav",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "cancel": {
       "name": "audio/se/select.wav",
-      "pitch": 90,
-      "volume": 80
+      "volume": 80,
+      "pitch": 90
     },
     "buzzer": {
       "name": "audio/se/GUI sel buzzer.ogg",
-      "pitch": 100,
-      "volume": 100
+      "volume": 100,
+      "pitch": 100
     },
     "save": {
       "name": "audio/se/Nintendo.mp3",
-      "pitch": 150,
-      "volume": 80
+      "volume": 80,
+      "pitch": 150
     },
     "load": {
       "name": "audio/se/select.wav",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "cursor": {
       "name": "audio/se/Choose.wav",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "shop": {
       "name": "audio/se/Down.wav",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "buy": {
       "name": "audio/se/purchase_sound.ogg",
@@ -63,8 +63,8 @@
     },
     "battleStart": {
       "name": "",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "defaultExclamation": {
       "name": "audio/se/015-jump01.ogg",
@@ -73,8 +73,8 @@
     },
     "escape": {
       "name": "audio/se/Fleee.wav",
-      "pitch": 70,
-      "volume": 80
+      "volume": 80,
+      "pitch": 70
     },
     "ability": {
       "name": "audio/se/in-battle_ability_activate.ogg",
@@ -133,13 +133,13 @@
     },
     "actorCollapse": {
       "name": "",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "enemyCollapse": {
       "name": "",
-      "pitch": 100,
-      "volume": 80
+      "volume": 80,
+      "pitch": 100
     },
     "eggMove": {
       "name": "audio/se/pokemove.wav",
@@ -190,8 +190,8 @@
     },
     "gameOver": {
       "name": "",
-      "pitch": 100,
-      "volume": 100
+      "volume": 100,
+      "pitch": 100
     },
     "catchCreature": {
       "name": "audio/me/caughtjingle.ogg",
@@ -217,7 +217,7 @@
       "pitch": 100
     },
     "baseWildBattle": {
-      "name": "audio/bgm/rosa_wild_battle.ogg",
+      "name": "audio/bgm/004 Normal battle.ogg",
       "volume": 100,
       "pitch": 100
     },

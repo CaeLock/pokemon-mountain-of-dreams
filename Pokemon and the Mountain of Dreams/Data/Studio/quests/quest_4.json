@@ -1,0 +1,20 @@
+{
+  "klass": "Quest",
+  "id": 4,
+  "dbSymbol": "quest_4",
+  "isPrimary": false,
+  "resolution": "default",
+  "objectives": [
+    {
+      "objectiveMethodName": "objective_beat_npc",
+      "objectiveMethodArgs": [
+        0,
+        "Mona",
+        1
+      ],
+      "textFormatMethodName": "text_beat_npc",
+      "hiddenByDefault": false
+    }
+  ],
+  "earnings": []
+}

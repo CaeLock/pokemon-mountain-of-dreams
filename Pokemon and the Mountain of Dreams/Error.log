@@ -1,34 +1,19 @@
-================================Erreur de script================================
-Message :
-undefined method `shader=' for nil:NilClass
-
-Type : NoMethodError
-Script : 013 FogNoRepeat.rb (user)
-Ligne : 51
-Date : 25/08/2026 11:50:35
-Game Version : 256
-Logiciel : PSDK 26.59
-===================================Backtraces===================================
-[21] : 013 FogNoRepeat.rb (user) | ligne 51 init_sprites
-[20] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1251 init_sprites
-[19] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1286 init_sprites
-[18] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1311 init_sprites
-[17] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1386 init_sprites
-[16] : 4_Systems_952_MapOverlay.rb (PSDK) | ligne 635 init_sprites
-[15] : 003 PngFakeAnimation.rb (user) | ligne 217 init_sprites
-[14] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 903 initialize
-[13] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1024 initialize
-[12] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9279 new
-[11] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9279 create_spriteset
-[10] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9267 main_begin
-[9] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 143 main
-[8] : tools/GameLoader/Z_main.rb (PSDK) | ligne 16 <top (required)>
-[7] : tools/GameLoader/3_load_extensions.rb (PSDK) | ligne 53 rgss_main
-[6] : tools/GameLoader/50_load_game_uncompiled.rb (PSDK) | ligne 53 <top (required)>
-[5] : ScriptLoad.rb (PSDK) | ligne 198 require
-[4] : ScriptLoad.rb (PSDK) | ligne 198 load_tool
-[3] : tools/GameLoader/Z_load_uncompiled.rb (PSDK) | ligne 17 <top (required)>
-[2] : ScriptLoad.rb (PSDK) | ligne 198 require
-[1] : ScriptLoad.rb (PSDK) | ligne 198 load_tool
-[0] : Game.rb (RMXP) | ligne 11 <main>
-===================================Fin du log===================================
+An error occured during Script Loading.
+Date : 01/09/2026 18:58:28
+Error type : Errno::ENOENT
+Error message : No such file or directory @ rb_sysopen - debug
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:106:in `gets'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:106:in `gets'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:106:in `rescue in block in load_scripts'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:92:in `block in load_scripts'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:91:in `each'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:91:in `load_scripts'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:82:in `load_vscode_scripts'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:42:in `start'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/tools/GameLoader/50_load_game_uncompiled.rb:7:in `<top (required)>'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:198:in `require'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:198:in `load_tool'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/tools/GameLoader/Z_load_uncompiled.rb:17:in `<top (required)>'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:198:in `require'
+C:/Users/marco/AppData/Local/Programs/pokemon-studio/resources/psdk-binaries/pokemonsdk/scripts/ScriptLoad.rb:198:in `load_tool'
+Game.rb:11:in `<main>'

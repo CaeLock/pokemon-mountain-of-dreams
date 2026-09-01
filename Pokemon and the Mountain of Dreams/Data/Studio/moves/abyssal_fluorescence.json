@@ -1,0 +1,57 @@
+{
+  "klass": "Move",
+  "id": 956,
+  "dbSymbol": "abyssal_fluorescence",
+  "type": "electric",
+  "category": "status",
+  "isAuthentic": false,
+  "isBallistics": false,
+  "isBite": false,
+  "isBlocable": false,
+  "isCharge": false,
+  "isDance": false,
+  "isDirect": false,
+  "isEffectChance": false,
+  "isGravity": false,
+  "isHeal": false,
+  "isKingRockUtility": false,
+  "isMagicCoatAffected": false,
+  "isMental": false,
+  "isMirrorMove": false,
+  "isNonSkyBattle": false,
+  "isPowder": false,
+  "isPulse": false,
+  "isPunch": false,
+  "isRecharge": false,
+  "isSnatchable": false,
+  "isSoundAttack": false,
+  "isSlicingAttack": false,
+  "isUnfreeze": false,
+  "isWind": false,
+  "power": 0,
+  "pp": 15,
+  "priority": 0,
+  "accuracy": 0,
+  "movecriticalRate": 1,
+  "effectChance": 100,
+  "moveStatus": [
+    {
+      "status": "CONFUSED",
+      "luckRate": 100
+    }
+  ],
+  "battleEngineMethod": "s_stat",
+  "battleStageMod": [
+    {
+      "battleStage": "EVA_STAGE",
+      "modificator": -1
+    }
+  ],
+  "battleEngineAimedTarget": "all_foe",
+  "mapUse": 0,
+  "condition": "cool",
+  "appeal": 4,
+  "jam": 0,
+  "comboMoves": [],
+  "effectTags": []
+}

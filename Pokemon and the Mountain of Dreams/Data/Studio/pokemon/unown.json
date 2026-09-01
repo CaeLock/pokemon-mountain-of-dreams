@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 262,
+        "description": 0
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -60,29 +64,78 @@
         "footprint": "0201",
         "character": "0201",
         "characterShiny": "0201s",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "revealed_power",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nature_power",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_trick",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stored_power",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_swap",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_split",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mystical_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "cosmic_power",
+          "level": 50
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "stored_power"
         }
-      ],
-      "formTextId": {
-        "name": 262,
-        "description": 0
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 263,
+        "description": 63
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -138,29 +191,29 @@
         "footprint": "0201",
         "character": "0201_01",
         "characterShiny": "0201s_01",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 263,
-        "description": 63
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 264,
+        "description": 64
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -216,29 +269,29 @@
         "footprint": "0201",
         "character": "0201_02",
         "characterShiny": "0201s_02",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 264,
-        "description": 64
-      }
+      ]
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 265,
+        "description": 65
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -294,29 +347,29 @@
         "footprint": "0201",
         "character": "0201_03",
         "characterShiny": "0201s_03",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 265,
-        "description": 65
-      }
+      ]
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 266,
+        "description": 66
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -372,29 +425,29 @@
         "footprint": "0201",
         "character": "0201_04",
         "characterShiny": "0201s_04",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 266,
-        "description": 66
-      }
+      ]
     },
     {
       "form": 5,
+      "formTextId": {
+        "name": 267,
+        "description": 67
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -450,29 +503,29 @@
         "footprint": "0201",
         "character": "0201_05",
         "characterShiny": "0201s_05",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 267,
-        "description": 67
-      }
+      ]
     },
     {
       "form": 6,
+      "formTextId": {
+        "name": 268,
+        "description": 68
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -528,29 +581,29 @@
         "footprint": "0201",
         "character": "0201_06",
         "characterShiny": "0201s_06",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 268,
-        "description": 68
-      }
+      ]
     },
     {
       "form": 7,
+      "formTextId": {
+        "name": 269,
+        "description": 69
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -606,29 +659,29 @@
         "footprint": "0201",
         "character": "0201_07",
         "characterShiny": "0201s_07",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 269,
-        "description": 69
-      }
+      ]
     },
     {
       "form": 8,
+      "formTextId": {
+        "name": 270,
+        "description": 70
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -684,29 +737,29 @@
         "footprint": "0201",
         "character": "0201_08",
         "characterShiny": "0201s_08",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 270,
-        "description": 70
-      }
+      ]
     },
     {
       "form": 9,
+      "formTextId": {
+        "name": 271,
+        "description": 71
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -762,29 +815,29 @@
         "footprint": "0201",
         "character": "0201_09",
         "characterShiny": "0201s_09",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 271,
-        "description": 71
-      }
+      ]
     },
     {
       "form": 10,
+      "formTextId": {
+        "name": 272,
+        "description": 72
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -840,29 +893,29 @@
         "footprint": "0201",
         "character": "0201_10",
         "characterShiny": "0201s_10",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 272,
-        "description": 72
-      }
+      ]
     },
     {
       "form": 11,
+      "formTextId": {
+        "name": 273,
+        "description": 73
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -918,29 +971,29 @@
         "footprint": "0201",
         "character": "0201_11",
         "characterShiny": "0201s_11",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 273,
-        "description": 73
-      }
+      ]
     },
     {
       "form": 12,
+      "formTextId": {
+        "name": 274,
+        "description": 74
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -996,29 +1049,29 @@
         "footprint": "0201",
         "character": "0201_12",
         "characterShiny": "0201s_12",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 274,
-        "description": 74
-      }
+      ]
     },
     {
       "form": 13,
+      "formTextId": {
+        "name": 275,
+        "description": 75
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1074,29 +1127,29 @@
         "footprint": "0201",
         "character": "0201_13",
         "characterShiny": "0201s_13",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 275,
-        "description": 75
-      }
+      ]
     },
     {
       "form": 14,
+      "formTextId": {
+        "name": 276,
+        "description": 76
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1152,29 +1205,29 @@
         "footprint": "0201",
         "character": "0201_14",
         "characterShiny": "0201s_14",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 276,
-        "description": 76
-      }
+      ]
     },
     {
       "form": 15,
+      "formTextId": {
+        "name": 277,
+        "description": 77
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1230,29 +1283,29 @@
         "footprint": "0201",
         "character": "0201_15",
         "characterShiny": "0201s_15",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 277,
-        "description": 77
-      }
+      ]
     },
     {
       "form": 16,
+      "formTextId": {
+        "name": 278,
+        "description": 78
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1308,29 +1361,29 @@
         "footprint": "0201",
         "character": "0201_16",
         "characterShiny": "0201s_16",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 278,
-        "description": 78
-      }
+      ]
     },
     {
       "form": 17,
+      "formTextId": {
+        "name": 279,
+        "description": 79
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1386,29 +1439,29 @@
         "footprint": "0201",
         "character": "0201_17",
         "characterShiny": "0201s_17",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 279,
-        "description": 79
-      }
+      ]
     },
     {
       "form": 18,
+      "formTextId": {
+        "name": 280,
+        "description": 80
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1464,29 +1517,29 @@
         "footprint": "0201",
         "character": "0201_18",
         "characterShiny": "0201s_18",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 280,
-        "description": 80
-      }
+      ]
     },
     {
       "form": 19,
+      "formTextId": {
+        "name": 281,
+        "description": 81
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1542,29 +1595,29 @@
         "footprint": "0201",
         "character": "0201_19",
         "characterShiny": "0201s_19",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 281,
-        "description": 81
-      }
+      ]
     },
     {
       "form": 20,
+      "formTextId": {
+        "name": 282,
+        "description": 82
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1620,29 +1673,29 @@
         "footprint": "0201",
         "character": "0201_20",
         "characterShiny": "0201s_20",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 282,
-        "description": 82
-      }
+      ]
     },
     {
       "form": 21,
+      "formTextId": {
+        "name": 283,
+        "description": 83
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1698,29 +1751,29 @@
         "footprint": "0201",
         "character": "0201_21",
         "characterShiny": "0201s_21",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 283,
-        "description": 83
-      }
+      ]
     },
     {
       "form": 22,
+      "formTextId": {
+        "name": 284,
+        "description": 84
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1776,29 +1829,29 @@
         "footprint": "0201",
         "character": "0201_22",
         "characterShiny": "0201s_22",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 284,
-        "description": 84
-      }
+      ]
     },
     {
       "form": 23,
+      "formTextId": {
+        "name": 285,
+        "description": 85
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1854,29 +1907,29 @@
         "footprint": "0201",
         "character": "0201_23",
         "characterShiny": "0201s_23",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 285,
-        "description": 85
-      }
+      ]
     },
     {
       "form": 24,
+      "formTextId": {
+        "name": 286,
+        "description": 86
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -1932,29 +1985,29 @@
         "footprint": "0201",
         "character": "0201_24",
         "characterShiny": "0201s_24",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 286,
-        "description": 86
-      }
+      ]
     },
     {
       "form": 25,
+      "formTextId": {
+        "name": 287,
+        "description": 87
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -2010,29 +2063,29 @@
         "footprint": "0201",
         "character": "0201_25",
         "characterShiny": "0201s_25",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 287,
-        "description": 87
-      }
+      ]
     },
     {
       "form": 26,
+      "formTextId": {
+        "name": 288,
+        "description": 88
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -2088,29 +2141,29 @@
         "footprint": "0201",
         "character": "0201_26",
         "characterShiny": "0201s_26",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 288,
-        "description": 88
-      }
+      ]
     },
     {
       "form": 27,
+      "formTextId": {
+        "name": 289,
+        "description": 89
+      },
       "height": 0.5,
       "weight": 5,
       "type1": "psychic",
@@ -2166,26 +2219,22 @@
         "footprint": "0201",
         "character": "0201_27",
         "characterShiny": "0201s_27",
-        "cry": "0201.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0201.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 1
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         }
-      ],
-      "formTextId": {
-        "name": 289,
-        "description": 89
-      }
+      ]
     }
   ]
 }

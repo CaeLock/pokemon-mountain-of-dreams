@@ -1,0 +1,10 @@
+en,fr,it,de,es,ko,kana
+Boss [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)],보스 [VAR PKNICK(0000)],ボス[VAR PKNICK(0000)]
+wild [VAR PKNICK(0000)],[VAR PKNICK(0000)] sauvage,[VAR PKNICK(0000)] selvatico,[VAR PKNICK(0000)] (Wild),[VAR PKNICK(0000)] salvaje,야생 [VAR PKNICK(0000)],やせいの　[VAR PKNICK(0000)]
+wild Boss [VAR PKNICK(0000)],Boss sauvage [VAR PKNICK(0000)],Boss selvatico [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)] (Wild),Boss salvaje [VAR PKNICK(0000)],야생 보스 [VAR PKNICK(0000)],やせいの　ボス[VAR PKNICK(0000)]
+opposing [VAR PKNICK(0000)],[VAR PKNICK(0000)] ennemi,[VAR PKNICK(0000)] nemico,[VAR PKNICK(0000)] (Gegner),[VAR PKNICK(0000)] enemigo,상대 [VAR PKNICK(0000)],あいての　[VAR PKNICK(0000)]
+opposing Boss [VAR PKNICK(0000)],Boss ennemi [VAR PKNICK(0000)],Boss nemico [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)] (Gegner),Boss enemigo [VAR PKNICK(0000)],상대 보스 [VAR PKNICK(0000)],あいての　ボス[VAR PKNICK(0000)]
+,,[VAR PKNICK(0000)] avversario,[VAR PKNICK(0000)] (wild),,,{野生|やせい}の　[VAR PKNICK(0000)]
+,,Boss avversario [VAR PKNICK(0000)],Boss [VAR PKNICK(0000)] (wild),,,{野生|やせい}の　ボス[VAR PKNICK(0000)]
+,,,,,,{相手|あいて}の　[VAR PKNICK(0000)]
+,,,,,,{相手|あいて}の　ボス[VAR PKNICK(0000)]

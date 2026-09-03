@@ -2,8 +2,8 @@
     "activeFile": "028 AsteerMountainF1-2.tmx",
     "automapping.whileDrawing": true,
     "expandedProjectPaths": [
-        ".",
-        "maps"
+        "maps",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -51,7 +51,7 @@
             "scale": 3,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 1023.9999999999999,
+                "x": 1024,
                 "y": 1024.1666666666665
             }
         },
@@ -107,7 +107,7 @@
             "scale": 0.399853515625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1022.8745878617658,
+                "x": 1022.8745878617657,
                 "y": 1024.1250457931371
             }
         },
@@ -186,19 +186,19 @@
             "scale": 1.5,
             "selectedLayer": 19,
             "viewCenter": {
-                "x": 1992.6666666666665,
-                "y": 1023
+                "x": 1080.6666666666665,
+                "y": 720.3333333333333
             }
         },
         "028 AsteerMountainF1-2.tmx": {
             "expandedGroupLayers": [
                 3
             ],
-            "scale": 0.75,
-            "selectedLayer": 8,
+            "scale": 1.5,
+            "selectedLayer": 16,
             "viewCenter": {
-                "x": 460,
-                "y": 646
+                "x": 433.3333333333333,
+                "y": 239.66666666666669
             }
         },
         ":/automap-tiles.tsx": {
@@ -577,8 +577,8 @@
             "scale": 1.5,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": -255.99999999999994,
-                "y": -256.3333333333333
+                "x": -256,
+                "y": -256.33333333333337
             }
         },
         "rules_dreams_ccaves.tmx": {
@@ -601,16 +601,16 @@
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 386,
-                "y": -483
+                "x": 260,
+                "y": -512.3333333333333
             }
         },
         "rules_dreams_nature.tmx": {
             "scale": 0.75,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 49.33333333333337,
-                "y": -191.33333333333326
+                "x": 0,
+                "y": -256.6666666666667
             }
         },
         "rules_dreams_trees.tmx": {
@@ -622,11 +622,11 @@
             }
         },
         "rules_dreams_water.tmx": {
-            "scale": 1.5,
+            "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 409.3333333333333,
-                "y": 319
+                "x": 512,
+                "y": 256.16666666666663
             }
         },
         "rules_mountain_trees.tmx": {

@@ -76,7 +76,7 @@ module Battle
     # behavior on top, it never blocks the original.
     module RelentlessMultiAction
       # Game variable controlling attacks/turn for Relentless bosses. 0 or unset = default of 1.
-      ATTACKS_PER_TURN_VARIABLE_ID = 52
+      ATTACKS_PER_TURN_VARIABLE_ID = 900
 
       def sort_actions
         super

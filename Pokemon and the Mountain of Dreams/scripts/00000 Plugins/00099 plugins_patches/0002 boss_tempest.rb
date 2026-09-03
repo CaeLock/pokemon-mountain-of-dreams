@@ -54,6 +54,7 @@ module Battle
           return if target != @target
 
           @bar_broken = true
+          $scene.visual.show_boss_aura_flare(@boss)
           create_substitute(handler)
           summon_rain(handler)
           set_moveset(AFTER_BAR_BREAK_MOVES)

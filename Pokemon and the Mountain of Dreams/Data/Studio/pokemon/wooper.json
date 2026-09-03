@@ -535,6 +535,54 @@
           "level": 40
         },
         {
+          "klass": "BreedLearnableMove",
+          "move": "acid_spray"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "after_you"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "ancient_power"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "counter"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "curse"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "double_kick"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "recover"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spit_up"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stockpile"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "swallow"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "haze"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "mist"
+        },
+        {
           "klass": "TechLearnableMove",
           "move": "flash"
         },
@@ -644,7 +692,19 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "body_press"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "spikes"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic_spikes"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "gunk_shot"
         },
         {
           "klass": "TechLearnableMove",
@@ -704,79 +764,11 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "whirlpool"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "muddy_water"
-        },
-        {
-          "klass": "TechLearnableMove",
           "move": "sludge_wave"
         },
         {
           "klass": "TechLearnableMove",
           "move": "curse"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "body_press"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "toxic_spikes"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "gunk_shot"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "acid_spray"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "after_you"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "ancient_power"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "counter"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "double_kick"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "recover"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "spit_up"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "stockpile"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "swallow"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "haze"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "mist"
         }
       ]
     }

@@ -2,6 +2,22 @@
   "klass": "Group",
   "id": 28,
   "dbSymbol": "group_28",
+  "systemTag": "Pond",
+  "terrainTag": 0,
+  "tool": "SuperRod",
+  "vsType": "simple",
+  "customConditions": [
+    {
+      "type": "mapId",
+      "value": 28,
+      "relationWithPreviousCondition": "AND"
+    },
+    {
+      "type": "mapId",
+      "relationWithPreviousCondition": "OR",
+      "value": 29
+    }
+  ],
   "encounters": [
     {
       "specie": "poliwag",
@@ -172,16 +188,5 @@
       ]
     }
   ],
-  "vsType": "simple",
-  "systemTag": "Pond",
-  "terrainTag": 0,
-  "customConditions": [
-    {
-      "type": "mapId",
-      "relationWithPreviousCondition": "AND",
-      "value": 28
-    }
-  ],
-  "tool": "SuperRod",
   "stepsAverage": 30
 }

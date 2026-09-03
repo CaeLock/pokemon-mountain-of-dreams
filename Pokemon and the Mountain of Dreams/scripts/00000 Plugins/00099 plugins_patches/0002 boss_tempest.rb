@@ -10,23 +10,26 @@
 #   boss.nb_bars_hp = 3
 #   boss.boss_effects_db_symbols += [:tempest_boss]
 #   call_battle_boss(boss)
-
-module Battle
-  module Effects
-    # Same as Effects::Substitute, but with a caller-specified HP amount
-    # instead of the fixed max_hp / 4. Used by Tempest's bar-break Substitute.
-    class CustomHPSubstitute < Substitute
-      # @param logic [Battle::Logic]
-      # @param pokemon [PFM::PokemonBattler]
-      # @param hp [Integer] the exact HP to give this substitute
-      def initialize(logic, pokemon, hp)
-        super(logic, pokemon)
-        @hp = @max_hp = hp
-      end
-    end
-  end
-end
-
+#
+# Depends on Effects::CustomHPSubstitute, already defined in the custom-moves
+# file (used there by Luminous Trail) - not redefined here to avoid two
+# copies of the same class drifting apart. Load order between the two files
+# doesn't matter, since it's only referenced inside a method body here
+# (create_substitute), not at load time.
+#
+# Fixed from the original: set_moveset used to call
+# PFM::Pokemon#replace_skill_index, which writes a raw, un-wrapped
+# PFM::Skill into @skills_set. That's correct for editing a Pokemon's
+# moveset OUTSIDE battle, but @target here is a PokemonBattler - since
+# PokemonBattler doesn't override that method, it inherited the
+# PFM::Pokemon one and mutated @skills_set directly. PokemonBattler#copy_moveset
+# sets @skills_set and @moveset to the SAME array, so that corrupted the live
+# battle moveset with a raw PFM::Skill in one slot instead of a proper
+# Battle::Move wrapper - crashing the AI's move_unusable? on that slot's
+# missing #disable_reason. set_moveset now builds a real Battle::Move the
+# same way PokemonBattler#copy_moveset does (using Studio::Move#pp for both
+# the starting pp and pp max passed to Battle::Move.new - Studio::Move has
+# no separate pp_max field).
 module Battle
   module Effects
     class Boss
@@ -37,7 +40,7 @@ module Battle
         def initialize(logic, target, db_symbol)
           super
           @bar_broken = false
-          set_moveset(BEFORE_BAR_BREAK_MOVES)
+          set_moveset(logic, BEFORE_BAR_BREAK_MOVES)
         end
 
         # @return [Boolean] whether this boss has broken a bar yet (read by the
@@ -57,15 +60,23 @@ module Battle
           $scene.visual.show_boss_aura_flare(@boss)
           create_substitute(handler)
           summon_rain(handler)
-          set_moveset(AFTER_BAR_BREAK_MOVES)
+          set_moveset(handler.logic, AFTER_BAR_BREAK_MOVES)
         end
 
         private
 
-        # Overwrites the boss's 4 moves in place.
+        # Overwrites the boss's 4 moves in place, properly wrapped as Battle::Move -
+        # NOT via PFM::Pokemon#replace_skill_index, which writes a raw PFM::Skill.
+        # @target here is a PokemonBattler; its @moveset/@skills_set (what's
+        # actually read during battle) need Battle::Move instances, exactly
+        # like PokemonBattler#copy_moveset builds them.
+        # @param logic [Battle::Logic]
         # @param moves [Array<Symbol>]
-        def set_moveset(moves)
-          moves.each_with_index { |db_symbol, index| @target.replace_skill_index(index, db_symbol) }
+        def set_moveset(logic, moves)
+          moves.each_with_index do |db_symbol, index|
+            move_data = data_move(db_symbol)
+            @target.moveset[index] = Battle::Move[db_symbol].new(move_data.db_symbol, move_data.pp, move_data.pp, logic.scene)
+          end
         end
 
         # Creates a Substitute worth 25% of the boss's max HP, at no HP cost to the boss.

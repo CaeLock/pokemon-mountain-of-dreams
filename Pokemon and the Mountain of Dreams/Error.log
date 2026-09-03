@@ -1,27 +1,40 @@
 ================================Erreur de script================================
 Message :
-undefined method `disable_reason' for #<PFM::Skill:0x144ed4b0>
+undefined method `bank' for nil:NilClass
 
 Type : NoMethodError
-Script : 5_Battle_30_AI.rb (PSDK)
-Ligne : 341
-Date : 03/09/2026 12:58:21
+Script : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/02 Visual/003 BossAuraVisual.rb (user)
+Ligne : 27
+Date : 03/09/2026 13:13:58
 Game Version : 256
 Logiciel : PSDK 26.59
 ===================================Backtraces===================================
-[25] : 5_Battle_30_AI.rb (PSDK) | ligne 341 move_unusable?
-[24] : 5_Battle_30_AI.rb (PSDK) | ligne 331 usable_moves
-[23] : 5_Battle_30_AI.rb (PSDK) | ligne 331 reject
-[22] : 5_Battle_30_AI.rb (PSDK) | ligne 331 usable_moves
-[21] : 5_Battle_30_AI.rb (PSDK) | ligne 295 battle_action_for
-[20] : 5_Battle_30_AI.rb (PSDK) | ligne 262 trigger
-[19] : 5_Battle_30_AI.rb (PSDK) | ligne 259 each
-[18] : 5_Battle_30_AI.rb (PSDK) | ligne 259 flat_map
-[17] : 5_Battle_30_AI.rb (PSDK) | ligne 259 trigger
-[16] : 5_Battle_01_Scene.rb (PSDK) | ligne 467 trigger_all_AI
-[15] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each
-[14] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each_with_index
-[13] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 trigger_all_AI
+[38] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/02 Visual/003 BossAuraVisual.rb (user) | ligne 27 show_boss_aura_flare
+[37] : 00000 Plugins/00099 plugins_patches/0002 boss_tempest.rb (user) | ligne 60 on_bar_break
+[36] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 144 handle_bar_break_event
+[35] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 144 each
+[34] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 144 handle_bar_break_event
+[33] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 143 each
+[32] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 143 handle_bar_break_event
+[31] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 116 handle_boss_bar_removal
+[30] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 116 times
+[29] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 116 handle_boss_bar_removal
+[28] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 89 handle_knockout
+[27] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 48 handle_damage
+[26] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/010 DamageHandlerBoss.rb (user) | ligne 11 damage_change_boss
+[25] : 00000 Plugins/00004 cc-pokemon-boss-system/3 Battle/04 Logic/1 Handlers/000 DamageHandler.rb (user) | ligne 32 damage_change
+[24] : 5_Battle_10_Move.rb (PSDK) | ligne 1307 recoil
+[23] : 5_Battle_10_Move.rb (PSDK) | ligne 8448 recoil
+[22] : 5_Battle_10_Move.rb (PSDK) | ligne 2005 deal_damage
+[21] : 5_Battle_10_Move.rb (PSDK) | ligne 1998 map
+[20] : 5_Battle_10_Move.rb (PSDK) | ligne 1998 deal_damage
+[19] : 5_Battle_10_Move.rb (PSDK) | ligne 1078 proceed_internal
+[18] : 5_Battle_10_Move.rb (PSDK) | ligne 1068 proceed_one_target
+[17] : 5_Battle_10_Move.rb (PSDK) | ligne 1039 proceed
+[16] : 5_Battle_05_Actions.rb (PSDK) | ligne 103 execute
+[15] : 5_Battle_04_Logic.rb (PSDK) | ligne 413 perform_next_action
+[14] : 00000 Plugins/00099 plugins_patches/0001 boss_relentless.rb (user) | ligne 92 perform_next_action
+[13] : 5_Battle_01_Scene.rb (PSDK) | ligne 487 update_battle_phase
 [12] : 5_Battle_01_Scene.rb (PSDK) | ligne 77 next_update_process
 [11] : 5_Battle_01_Scene.rb (PSDK) | ligne 69 update
 [10] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 236 main_process

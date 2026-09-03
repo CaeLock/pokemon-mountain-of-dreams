@@ -1,27 +1,31 @@
 ================================Erreur de script================================
 Message :
-undefined method `shader=' for nil:NilClass
+undefined method `disable_reason' for #<PFM::Skill:0x144ed4b0>
 
 Type : NoMethodError
-Script : 013 FogNoRepeat.rb (user)
-Ligne : 51
-Date : 25/08/2026 11:50:35
+Script : 5_Battle_30_AI.rb (PSDK)
+Ligne : 341
+Date : 03/09/2026 12:58:21
 Game Version : 256
 Logiciel : PSDK 26.59
 ===================================Backtraces===================================
-[21] : 013 FogNoRepeat.rb (user) | ligne 51 init_sprites
-[20] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1251 init_sprites
-[19] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1286 init_sprites
-[18] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1311 init_sprites
-[17] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1386 init_sprites
-[16] : 4_Systems_952_MapOverlay.rb (PSDK) | ligne 635 init_sprites
-[15] : 003 PngFakeAnimation.rb (user) | ligne 217 init_sprites
-[14] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 903 initialize
-[13] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 1024 initialize
-[12] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9279 new
-[11] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9279 create_spriteset
-[10] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9267 main_begin
-[9] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 143 main
+[25] : 5_Battle_30_AI.rb (PSDK) | ligne 341 move_unusable?
+[24] : 5_Battle_30_AI.rb (PSDK) | ligne 331 usable_moves
+[23] : 5_Battle_30_AI.rb (PSDK) | ligne 331 reject
+[22] : 5_Battle_30_AI.rb (PSDK) | ligne 331 usable_moves
+[21] : 5_Battle_30_AI.rb (PSDK) | ligne 295 battle_action_for
+[20] : 5_Battle_30_AI.rb (PSDK) | ligne 262 trigger
+[19] : 5_Battle_30_AI.rb (PSDK) | ligne 259 each
+[18] : 5_Battle_30_AI.rb (PSDK) | ligne 259 flat_map
+[17] : 5_Battle_30_AI.rb (PSDK) | ligne 259 trigger
+[16] : 5_Battle_01_Scene.rb (PSDK) | ligne 467 trigger_all_AI
+[15] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each
+[14] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each_with_index
+[13] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 trigger_all_AI
+[12] : 5_Battle_01_Scene.rb (PSDK) | ligne 77 next_update_process
+[11] : 5_Battle_01_Scene.rb (PSDK) | ligne 69 update
+[10] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 236 main_process
+[9] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 144 main
 [8] : tools/GameLoader/Z_main.rb (PSDK) | ligne 16 <top (required)>
 [7] : tools/GameLoader/3_load_extensions.rb (PSDK) | ligne 53 rgss_main
 [6] : tools/GameLoader/50_load_game_uncompiled.rb (PSDK) | ligne 53 <top (required)>

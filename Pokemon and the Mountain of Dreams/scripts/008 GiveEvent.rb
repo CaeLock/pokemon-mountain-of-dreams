@@ -7,8 +7,8 @@ BERRY_POOLS = {
 }.freeze
 
 ITEM_POOLS = {
-  common: %i[poke_ball great_ball potion super_potion exp_candy_xs ether],
-  uncommon: %i[great_ball great_ball ultra_ball super_potion hyper_potion exp_candy_xs exp_candy_s full_heal revive ether],
+  common: %i[poke_ball great_ball potion super_potion exp_candy_xs ether tiny_mushroom],
+  uncommon: %i[great_ball great_ball ultra_ball super_potion hyper_potion exp_candy_xs exp_candy_s full_heal revive ether tiny_mushroom big_mushroom],
   ball_common: %i[great_ball poke_ball],
   ball_uncommon: %i[great_ball ultra_ball heal_ball repeat_ball timer_ball luxury_ball],
 }.freeze

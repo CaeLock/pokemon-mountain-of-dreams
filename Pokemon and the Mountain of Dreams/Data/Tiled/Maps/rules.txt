@@ -7,3 +7,4 @@ rules_dreams_trees.tmx
 rules_dreams_nature.tmx
 rules_dreams_interior.tmx
 rules_dreams_caves.tmx
+rules_dreams_water.tmx

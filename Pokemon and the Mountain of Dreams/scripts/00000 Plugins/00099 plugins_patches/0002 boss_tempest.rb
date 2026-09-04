@@ -30,6 +30,7 @@
 # same way PokemonBattler#copy_moveset does (using Studio::Move#pp for both
 # the starting pp and pp max passed to Battle::Move.new - Studio::Move has
 # no separate pp_max field).
+
 module Battle
   module Effects
     class Boss
@@ -57,7 +58,7 @@ module Battle
           return if target != @target
 
           @bar_broken = true
-          $scene.visual.show_boss_aura_flare(@boss)
+          $scene.visual.show_boss_aura_flare(@target, :water)
           create_substitute(handler)
           summon_rain(handler)
           set_moveset(handler.logic, AFTER_BAR_BREAK_MOVES)
@@ -75,7 +76,7 @@ module Battle
         def set_moveset(logic, moves)
           moves.each_with_index do |db_symbol, index|
             move_data = data_move(db_symbol)
-            @target.moveset[index] = Battle::Move[db_symbol].new(move_data.db_symbol, move_data.pp, move_data.pp, logic.scene)
+            @target.moveset[index] = Battle::Move[move_data.be_method].new(move_data.db_symbol, move_data.pp, move_data.pp, logic.scene)
           end
         end
 
@@ -87,6 +88,9 @@ module Battle
           hp = (@target.max_hp * 0.25).round.clamp(1, Float::INFINITY)
           handler.scene.visual.show_boss(@target)
           @target.effects.add(Effects::CustomHPSubstitute.new(handler.logic, @target, hp))
+          sprite = handler.scene.visual.battler_sprite(@target.bank, @target.position)
+          $options.show_animation ? sprite.switch_to_substitute_animation : sprite.switch_to_substitute_sprite
+          handler.scene.visual.wait_for_animation
         end
 
         # Summons Rain, same duration rules as Rain Dance (Damp Rock extends it).

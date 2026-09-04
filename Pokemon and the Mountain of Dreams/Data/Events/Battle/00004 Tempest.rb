@@ -9,24 +9,29 @@
 # and (Agility was just used or Speed is maxed); Agility again every 5th turn
 # while Speed isn't maxed; otherwise normal AI (level 5 equivalent).
 #
-# After bar break: Against the Storm if foes aren't both bound or it isn't
-# raining; Abyssal Fluorescence if foes aren't both confused or any foe raised
-# evasion above +1; otherwise normal AI (level 5 equivalent).
+# After bar break: Against the Storm if both enemies are not trapped or it
+# isn't raining; Abyssal Fluorescence if foes aren't both confused or any foe
+# raised evasion above +1; otherwise normal AI (level 5 equivalent).
 #
 # Depends on Effects::Boss::Tempest (for #bar_broken?) from the Tempest boss script.
 
 module Battle
   class Scene
-    register_event(:AI_force_action) do |scene, ai, index|
+      register_event(:AI_force_action) do |scene, ai, index|
       tempest = ai.controlled_pokemon.find { |pkmn| pkmn.boss_effects.any? { |e| e.is_a?(Effects::Boss::Tempest) } }
       next nil unless tempest
+
+      if tempest.effects.has?(&:force_next_move?) || tempest.effects.has?(&:out_of_reach?) || tempest.effects.has?(&:preparing_attack?)
+        scene.instance_variable_set(:@tempest_used_agility_last_turn, false)
+        next nil
+      end
 
       tempest_effect = tempest.boss_effects.find { |e| e.is_a?(Effects::Boss::Tempest) }
       move_db_symbol = tempest_effect.bar_broken? ? scene.tempest_after_bar_break_move(tempest) : scene.tempest_before_bar_break_move(tempest)
       scene.instance_variable_set(:@tempest_used_agility_last_turn, move_db_symbol == :agility)
 
       if move_db_symbol.nil?
-        ai5 = Battle::AI.registered(5).new(scene, tempest.bank, tempest.party_id, 5)
+        ai5 = Battle::AI::Base.registered(5).new(scene, tempest.bank, tempest.party_id, 5)
         next [ai5.send(:battle_action_for, tempest)]
       end
 
@@ -47,7 +52,8 @@ module Battle
       no_substitute = !tempest.effects.has?(:substitute)
       agility_maxed = tempest.spd_stage >= 6
       used_agility_last_turn = instance_variable_get(:@tempest_used_agility_last_turn)
-      return :luminous_trail if no_substitute && (used_agility_last_turn || agility_maxed)
+      can_afford_substitute = tempest.hp_rate > (1.0 / Battle::Move::LuminousTrail::COST_FACTOR)
+      return :luminous_trail if no_substitute && (used_agility_last_turn || agility_maxed) && can_afford_substitute
 
       return :agility if !agility_maxed && (tempest.turn_count % 5).zero?
 
@@ -59,9 +65,9 @@ module Battle
     def tempest_after_bar_break_move(tempest)
       foes = logic.foes_of(tempest)
 
-      no_binds = foes.all? { |foe| !foe.effects.has?(:bind) }
-      not_raining = !logic.current_weather?(:rain)
-      return :against_the_storm if no_binds || not_raining
+      both_untrapped = foes.all? { |foe| !foe.effects.has?(:bind) }
+      not_raining = !logic.weather_change_handler.current_weather?(:rain)
+      return :against_the_storm if both_untrapped || not_raining
 
       no_confusion = foes.all? { |foe| !foe.confused? }
       evasion_boosted = foes.any? { |foe| foe.eva_stage > 1 }

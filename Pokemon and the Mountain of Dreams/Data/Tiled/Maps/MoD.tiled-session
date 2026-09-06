@@ -1,9 +1,9 @@
 {
-    "activeFile": "028 AsteerMountainF1-2.tmx",
+    "activeFile": "024 AccessMountain.tmx",
     "automapping.whileDrawing": true,
     "expandedProjectPaths": [
-        ".",
-        "maps"
+        "maps",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -51,8 +51,8 @@
             "scale": 3,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 1162.6666666666665,
-                "y": 1038.8333333333333
+                "x": 1023.9999999999999,
+                "y": 1024.1666666666665
             }
         },
         "007 Cave.tmx": {
@@ -107,8 +107,8 @@
             "scale": 0.399853515625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 2063.2555867627307,
-                "y": 1134.165343753816
+                "x": 1022.8745878617658,
+                "y": 1024.1250457931371
             }
         },
         "019 Exterior.tmx": {
@@ -159,18 +159,18 @@
             "expandedGroupLayers": [
                 39
             ],
-            "scale": 1.5,
+            "scale": 2,
             "selectedLayer": 7,
             "viewCenter": {
-                "x": 508.3333333333333,
-                "y": 881
+                "x": 394.5,
+                "y": 153.75
             }
         },
         "025 SlumberingLog.tmx": {
             "scale": 1,
             "selectedLayer": 18,
             "viewCenter": {
-                "x": 319.5,
+                "x": 320,
                 "y": 271.5
             }
         },
@@ -183,22 +183,30 @@
             }
         },
         "027 AsteerMountainF1.tmx": {
-            "scale": 1.5,
-            "selectedLayer": 19,
+            "scale": 1,
+            "selectedLayer": 28,
             "viewCenter": {
-                "x": 1358,
-                "y": 749.6666666666665
+                "x": 1621,
+                "y": 878.5
             }
         },
         "028 AsteerMountainF1-2.tmx": {
             "expandedGroupLayers": [
                 3
             ],
-            "scale": 2,
+            "scale": 1,
             "selectedLayer": 16,
             "viewCenter": {
-                "x": 951,
-                "y": 264.75
+                "x": 693,
+                "y": 389.5
+            }
+        },
+        "029 AsteerMountainExterior1.tmx": {
+            "scale": 2,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 1378.5,
+                "y": 467.25
             }
         },
         ":/automap-tiles.tsx": {
@@ -397,7 +405,7 @@
             "scaleInEditor": 2
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-borders.tsx": {
-            "scaleInDock": 0.5
+            "scaleInDock": 1.5
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH_Basement.tsx": {
             "scaleInDock": 1
@@ -416,12 +424,12 @@
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/dpp_underground.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 0.5,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx": {
             "dynamicWrapping": false,
-            "scaleInDock": 0.75,
+            "scaleInDock": 1,
             "scaleInEditor": 0.75
         },
         "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/passages.tsx": {
@@ -577,8 +585,8 @@
             "scale": 1.5,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 21.333333333333314,
-                "y": -227
+                "x": -255.99999999999994,
+                "y": -256.3333333333333
             }
         },
         "rules_dreams_ccaves.tmx": {
@@ -599,18 +607,18 @@
         },
         "rules_dreams_mountain.tmx": {
             "scale": 1.5,
-            "selectedLayer": 1,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 386,
-                "y": -483
+                "x": 260,
+                "y": -512.3333333333333
             }
         },
         "rules_dreams_nature.tmx": {
             "scale": 0.75,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 554.6666666666666,
-                "y": -198
+                "x": 0,
+                "y": -256.66666666666663
             }
         },
         "rules_dreams_trees.tmx": {
@@ -625,8 +633,8 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 650.6666666666666,
-                "y": 270.8333333333333
+                "x": 512,
+                "y": 256.16666666666663
             }
         },
         "rules_mountain_trees.tmx": {
@@ -671,6 +679,16 @@
     "map.width": 25,
     "openFiles": [
         "rules_dreams_mountain.tmx",
+        "029 AsteerMountainExterior1.tmx",
+        "024 AccessMountain.tmx",
+        "025 SlumberingLog.tmx"
+    ],
+    "project": "MoD.tiled-project",
+    "recentFiles": [
+        "rules_dreams_mountain.tmx",
+        "029 AsteerMountainExterior1.tmx",
+        "025 SlumberingLog.tmx",
+        "024 AccessMountain.tmx",
         "027 AsteerMountainF1.tmx",
         "028 AsteerMountainF1-2.tmx",
         "006 Beach.tmx",
@@ -679,21 +697,6 @@
         "013 Labo.tmx",
         "rules_dreams_nature.tmx",
         "rules_dreams_water.tmx"
-    ],
-    "project": "MoD.tiled-project",
-    "recentFiles": [
-        "rules_dreams_mountain.tmx",
-        "027 AsteerMountainF1.tmx",
-        "rules_dreams_water.tmx",
-        "rules_dreams_nature.tmx",
-        "013 Labo.tmx",
-        "rules_dreams_caves.tmx",
-        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/animations_water.tsx",
-        "006 Beach.tmx",
-        "028 AsteerMountainF1-2.tmx",
-        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/exterior_spring.tsx",
-        "C:/Users/marco/Documents/github-fangames/pokemon-mountain-of-dreams/Pokemon and the Mountain of Dreams/Data/Tiled/Tilesets/TECH-Animations.tsx",
-        "rules_dreams_ccaves.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"

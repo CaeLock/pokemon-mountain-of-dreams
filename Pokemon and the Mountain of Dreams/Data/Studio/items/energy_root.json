@@ -11,8 +11,8 @@
   "isHoldable": true,
   "isAllowingMega": false,
   "flingPower": 30,
+  "isBerry": false,
   "klass": "ConstantHealItem",
   "loyaltyMalus": 10,
-  "hpCount": 200,
-  "isBerry": false
+  "hpCount": 120
 }

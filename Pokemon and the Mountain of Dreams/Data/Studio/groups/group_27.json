@@ -9,8 +9,8 @@
   "customConditions": [
     {
       "type": "mapId",
-      "relationWithPreviousCondition": "AND",
-      "value": 28
+      "value": 28,
+      "relationWithPreviousCondition": "AND"
     },
     {
       "type": "enabledSwitch",
@@ -63,7 +63,7 @@
     },
     {
       "specie": "burmy",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1

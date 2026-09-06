@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 538,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 3.4,
       "type1": "bug",
@@ -89,60 +93,100 @@
         "footprint": "0412",
         "character": "0412",
         "characterShiny": "0412s",
-        "cry": "0412.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0412.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "protect",
           "klass": "LevelLearnableMove",
+          "move": "tackle",
           "level": 1
         },
         {
-          "move": "tackle",
           "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "absorb",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "camouflage",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nature_power",
           "level": 10
         },
         {
-          "move": "bug_bite",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 15
         },
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
-          "level": 20
+          "move": "mega_drain",
+          "level": 17
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "natural_gift",
+          "level": 21
         },
         {
-          "move": "protect",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "substitute",
+          "level": 26
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 31
         },
         {
-          "move": "bug_bite",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "protect"
         },
         {
-          "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
         }
-      ],
-      "formTextId": {
-        "name": 538,
-        "description": 0
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 539,
+        "description": 128
+      },
       "height": 0.2,
       "weight": 3.4,
       "type1": "bug",
@@ -227,60 +271,100 @@
         "footprint": "0412",
         "character": "0412_01",
         "characterShiny": "0412s_01",
-        "cry": "0412.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0412.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "protect",
           "klass": "LevelLearnableMove",
+          "move": "tackle",
           "level": 1
         },
         {
-          "move": "tackle",
           "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "camouflage",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nature_power",
           "level": 10
         },
         {
-          "move": "bug_bite",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 15
         },
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
-          "level": 20
+          "move": "mud_bomb",
+          "level": 17
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "natural_gift",
+          "level": 21
         },
         {
-          "move": "protect",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "substitute",
+          "level": 26
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 31
         },
         {
-          "move": "bug_bite",
-          "klass": "TutorLearnableMove"
+          "klass": "TutorLearnableMove",
+          "move": "snore"
         },
         {
-          "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
         }
-      ],
-      "formTextId": {
-        "name": 539,
-        "description": 128
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 540,
+        "description": 129
+      },
       "height": 0.2,
       "weight": 3.4,
       "type1": "bug",
@@ -365,57 +449,93 @@
         "footprint": "0412",
         "character": "0412_02",
         "characterShiny": "0412s_02",
-        "cry": "0412.ogg",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "0412.ogg",
+        "hasFemale": false
       },
       "moveSet": [
         {
-          "move": "protect",
           "klass": "LevelLearnableMove",
+          "move": "tackle",
           "level": 1
         },
         {
-          "move": "tackle",
           "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "intercepting_laser",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "camouflage",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nature_power",
           "level": 10
         },
         {
-          "move": "bug_bite",
           "klass": "LevelLearnableMove",
+          "move": "hidden_power",
           "level": 15
         },
         {
-          "move": "hidden_power",
           "klass": "LevelLearnableMove",
-          "level": 20
+          "move": "mirror_shot",
+          "level": 17
         },
         {
-          "move": "snore",
-          "klass": "TutorLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "natural_gift",
+          "level": 21
         },
         {
-          "move": "protect",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "substitute",
+          "level": 26
         },
         {
-          "move": "hidden_power",
-          "klass": "TechLearnableMove"
+          "klass": "LevelLearnableMove",
+          "move": "flash_cannon",
+          "level": 31
         },
         {
-          "move": "bug_bite",
-          "klass": "TutorLearnableMove"
+          "klass": "TutorLearnableMove",
+          "move": "snore"
         },
         {
-          "move": "electroweb",
-          "klass": "TutorLearnableMove"
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
         }
-      ],
-      "formTextId": {
-        "name": 540,
-        "description": 129
-      }
+      ]
     }
   ]
 }

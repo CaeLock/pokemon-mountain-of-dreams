@@ -1,23 +1,40 @@
 ================================Erreur de script================================
 Message :
-uninitialized constant Battle::Move::LuminousTrail::COST_FACTOR
+Shop with symbol : julia_shop must be created before calling it
 
-Type : NameError
-Script : (eval) (RMXP)
-Ligne : 55
-Date : 03/09/2026 21:22:01
+Type : RuntimeError
+Script : 4_Systems_203_Shop.rb (PSDK)
+Ligne : 853
+Date : 05/09/2026 23:33:12
 Game Version : 256
 Logiciel : PSDK 26.59
+Script used by eval command : 
+open_shop(:julia_shop, show_background: false)
+
+
 ===================================Backtraces===================================
-[19] : (eval) (RMXP) | ligne 55 tempest_before_bar_break_move
-[18] : (eval) (RMXP) | ligne 30 <class:Scene>
-[17] : 5_Battle_01_Scene.rb (PSDK) | ligne 554 call_event
-[16] : 5_Battle_01_Scene.rb (PSDK) | ligne 463 trigger_all_AI
-[15] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each
-[14] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 each_with_index
-[13] : 5_Battle_01_Scene.rb (PSDK) | ligne 461 trigger_all_AI
-[12] : 5_Battle_01_Scene.rb (PSDK) | ligne 77 next_update_process
-[11] : 5_Battle_01_Scene.rb (PSDK) | ligne 69 update
+[32] : 4_Systems_203_Shop.rb (PSDK) | ligne 853 get_list_item
+[31] : 4_Systems_203_Shop.rb (PSDK) | ligne 843 load_item_list
+[30] : 4_Systems_203_Shop.rb (PSDK) | ligne 833 initialize
+[29] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 174 new
+[28] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 174 call_scene
+[27] : 2_PSDK_Event_Interpreter.rb (PSDK) | ligne 1329 open_shop
+[26] : (eval) (RMXP) | ligne 2 eval_X12
+[25] : 1_RMXP_Scripts.rb (PSDK) | ligne 2145 eval_script
+[24] : 1_RMXP_Scripts.rb (PSDK) | ligne 2137 command_355
+[23] : 1_RMXP_Scripts.rb (PSDK) | ligne 1121 execute_command
+[22] : 1_RMXP_Scripts.rb (PSDK) | ligne 996 update
+[21] : 1_RMXP_Scripts.rb (PSDK) | ligne 976 loop
+[20] : 1_RMXP_Scripts.rb (PSDK) | ligne 976 update
+[19] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9285 update_map_logic
+[18] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 2933 update_map_logic
+[17] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9293 auto_transfert_update
+[16] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9292 loop
+[15] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9292 auto_transfert_update
+[14] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9145 update
+[13] : 0_Dependencies.rb (PSDK) | ligne 1441 times
+[12] : 0_Dependencies.rb (PSDK) | ligne 1441 run
+[11] : 4_Systems_003_Map_Engine.rb (PSDK) | ligne 9145 update
 [10] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 236 main_process
 [9] : 4_Systems_000_General_2_GamePlay__Base.rb (PSDK) | ligne 144 main
 [8] : tools/GameLoader/Z_main.rb (PSDK) | ligne 16 <top (required)>

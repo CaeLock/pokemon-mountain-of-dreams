@@ -2,7 +2,7 @@
   "id": 295,
   "dbSymbol": "shed_shell",
   "icon": "295",
-  "price": 200,
+  "price": 800,
   "socket": 1,
   "position": 0,
   "isBattleUsable": false,
@@ -11,6 +11,6 @@
   "isHoldable": true,
   "isAllowingMega": false,
   "flingPower": 10,
-  "klass": "Item",
-  "isBerry": false
+  "isBerry": false,
+  "klass": "Item"
 }

@@ -57,3 +57,27 @@ module PFM
     singleton_class.prepend(VestigialPokemonPatch)
   end
 end
+
+# Separate patch, separate code path: the battle-entry "X appeared!" message
+# does NOT go through boss_name/name_boss above at all. It's built entirely
+# by Battle::Message.wild_battle_appearance (cc-pokemon-boss-system,
+# 3 Battle/02 Visual/2 Transition/001 BattleStart.rb), which reads a
+# fully pre-written sentence straight from text file 10001 (a different file
+# from the 10003 used above) via @text.parse(*params) - the word "Boss" is
+# baked into that sentence in the text file itself, never assembled through
+# PFM::Text::BossTextPatch. Same fix technique, applied to this method's
+# output instead, reusing the same WORD_REPLACEMENTS hash from above.
+module Battle
+  module Message
+    module VestigialPokemonAppearancePatch
+      # Shows the correct message when wild Pokémon appear in battle (adds the word substitution)
+      def wild_battle_appearance
+        text = super
+        PFM::Text::VestigialPokemonPatch::WORD_REPLACEMENTS.each { |old_word, new_word| text = text.gsub(old_word, new_word) }
+        return text
+      end
+    end
+
+    singleton_class.prepend(VestigialPokemonAppearancePatch)
+  end
+end

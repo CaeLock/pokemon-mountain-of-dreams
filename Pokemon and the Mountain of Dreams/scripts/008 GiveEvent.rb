@@ -41,6 +41,7 @@ class Interpreter
     # Move the window to the top of the screen for this message only
     # (both overwrites are consumed and reset automatically once the message closes)
     $scene.message_window.position_overwrite = :top
+     Audio.me_play('audio/me/obtained a berry!.ogg', 100, 100, false)
     $scene.display_message("#{header}\n#{lines.join("\n\n")}")
   end
 
@@ -67,6 +68,7 @@ class Interpreter
     # Move the window to the top of the screen for this message only
     # (both overwrites are consumed and reset automatically once the message closes)
     $scene.message_window.position_overwrite = :top
+    Audio.me_play('audio/me/item obtained.ogg', 100, 100, false)
     $scene.display_message("#{header}\n#{lines.join("\n\n")}")
   end
 end
